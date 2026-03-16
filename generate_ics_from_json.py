@@ -286,7 +286,7 @@ def build_ics(events: list[dict]) -> str:
         "PRODID:-//WAT WEL Plan zajec//PL",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        "X-WR-CALNAME:WAT WEL24EL2S0 Lato",
+        f"X-WR-CALNAME:WAT {GROUP} Lato",
         "X-WR-TIMEZONE:Europe/Warsaw",
     ]
 
