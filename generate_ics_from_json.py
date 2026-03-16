@@ -18,8 +18,10 @@ try:
 except ImportError:
     HAS_OPENPYXL = False
 
-INPUT_JSON = "WEL24EL2S0_lato_raw.json"
-OUTPUT_ICS = "WEL24EL2S0_lato.ics"
+import sys
+GROUP = sys.argv[1] if len(sys.argv) > 1 else "WEL24EL2S0"
+INPUT_JSON = f"{GROUP}_lato_raw.json"
+OUTPUT_ICS = f"{GROUP}_lato.ics"
 WF_XLSX = "wf_details.xlsx"
 
 # Rok semestru letniego
