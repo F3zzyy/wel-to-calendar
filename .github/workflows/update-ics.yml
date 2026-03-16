@@ -28,7 +28,8 @@ jobs:
       - name: Pobierz plan i ekstrakcja do JSON
         run: |
           python extract_schedule_data.py WEL24EL2S0
-          python extract_schedule_data.py WEL24DRUGA_GRUPA
+          python extract_schedule_data.py WEL24EE1S0
+          python extract_schedule_data.py WEL24EN1S0
 
       - name: Generuj pliki ICS z JSON
         run: |
