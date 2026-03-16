@@ -1,0 +1,50 @@
+name: Aktualizuj plan zajęć ICS
+
+on:
+  schedule:
+    # Codziennie o 06:00 UTC (08:00 polskiego czasu)
+    - cron: "0 6 * * *"
+  workflow_dispatch:  # Możliwość ręcznego uruchomienia
+
+jobs:
+  update-ics:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repozytorium
+        uses: actions/checkout@v4
+
+      - name: Konfiguracja Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalacja zależności
+        run: pip install -r requirements.txt
+
+      - name: Pobierz plan i ekstrakcja do JSON
+        run: python extract_schedule_data.py
+
+      - name: Generuj plik ICS z JSON
+        run: python generate_ics_from_json.py
+
+      - name: Sprawdź zmiany w ICS
+        id: check_changes
+        run: |
+          git diff --quiet WEL24EL2S0_lato.ics && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit i push jeśli ICS się zmienił
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add WEL24EL2S0_lato.ics WEL24EL2S0_lato_raw.json
+          git commit -m "auto: aktualizacja planu zajęć $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Brak zmian w planie
+        if: steps.check_changes.outputs.changed == 'false'
+        run: echo "Plan zajęć nie zmienił się – brak commitu."
