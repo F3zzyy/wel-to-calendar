@@ -9,8 +9,10 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-URL = "https://plany.wel.wat.edu.pl/lato/WEL24EL2S0.htm"
-OUTPUT_FILE = "WEL24EL2S0_lato_raw.json"
+import sys
+GROUP = sys.argv[1] if len(sys.argv) > 1 else "WEL24EL2S0"
+URL = f"https://plany.wel.wat.edu.pl/lato/{GROUP}.htm"
+OUTPUT_FILE = f"{GROUP}_lato_raw.json"
 
 
 def extract_table_data(url: str) -> list[list[dict]]:
