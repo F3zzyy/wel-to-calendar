@@ -209,10 +209,6 @@ def parse_event_details(text: str) -> dict:
 
 
 def load_wf_details(xlsx_path: str) -> dict:
-    """
-    Wczytuje szczegóły WF z pliku XLSX.
-    Zakłada format: kolumna A = data, kolumna B = opis.
-    """
     if not HAS_OPENPYXL or not Path(xlsx_path).exists():
         return {}
 
@@ -220,13 +216,14 @@ def load_wf_details(xlsx_path: str) -> dict:
     ws = wb.active
     details = {}
     for row in ws.iter_rows(min_row=2, values_only=True):
-        if row[0] and row[1]:
-            date_val = row[0]
+        date_val = row[0]   # kolumna A = data
+        opis = row[2]       # kolumna C = opis z salą
+        if date_val and opis:
             if isinstance(date_val, datetime):
                 key = date_val.date()
             else:
                 key = str(date_val)
-            details[key] = str(row[1])
+            details[key] = str(opis)
     print(f"Wczytano {len(details)} wpisów WF z {xlsx_path}")
     return details
 
