@@ -418,8 +418,8 @@ def main():
     grid = build_grid(rows)
     print(f"Zbudowano grid: {len(grid)} wierszy")
 
-    wf_xlsx = f"{GROUP}_wf.xlsx" if Path(f"{GROUP}_wf.xlsx").exists() else WF_XLSX if GROUP == "WEL24EL2S0" else ""
-wf_details = load_wf_details(wf_xlsx) if wf_xlsx else {}
+    wf_xlsx = f"{GROUP}_wf.xlsx" if Path(f"{GROUP}_wf.xlsx").exists() else ""
+    wf_details = load_wf_details(wf_xlsx) if wf_xlsx else {}
 
     events = process_schedule(grid, wf_details)
     print(f"Wygenerowano {len(events)} eventów")
