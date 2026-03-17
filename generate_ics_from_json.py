@@ -179,26 +179,29 @@ def find_time_slot(cell_text: str) -> str | None:
 
 
 def parse_event_details(text: str) -> dict:
-    """
-    Parsuje szczegóły zajęć z tekstu komórki.
-    Zwraca dict z kluczami: summary, room, teacher, notes.
-    """
     lines = [l.strip() for l in text.split("\n") if l.strip()]
     if not lines:
         return {"summary": "", "room": "", "teacher": "", "notes": ""}
 
+    # Pierwsza linia to zawsze skrót przedmiotu
     summary = lines[0]
     room = ""
     teacher = ""
     notes_lines = []
 
     for line in lines[1:]:
-        if re.match(r"s\.\s*\w+", line, re.IGNORECASE):
-            room = line
-        elif re.search(r"\b(dr|mgr|prof|inż)\b", line, re.IGNORECASE):
+        # Prowadzący — zawiera tytuł naukowy lub stopień wojskowy
+        if re.search(r"\b(dr|mgr|prof|inż|kpt|ppłk|mjr|por|chor|kmdr|kpr|mł\.)\b", line, re.IGNORECASE):
             teacher = line
-        else:
+        # Typ zajęć (w, ć, L, S, E, r, i, Ep, Zp.) — jedna lub dwie litery/skrót
+        elif re.match(r"^(w|ć|L|S|E|r|i|Ep|Zp\.)$", line):
             notes_lines.append(line)
+        # Wszystko inne to sala/miejsce
+        else:
+            if room:
+                room += "; " + line
+            else:
+                room = line
 
     return {
         "summary": summary,
