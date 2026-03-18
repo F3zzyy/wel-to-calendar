@@ -2268,7 +2268,7 @@
     {
       "text": "SSW",
       "colspan": 2,
-      "rowspan": 3,
+      "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
       "row_idx": 12,
@@ -2439,10 +2439,10 @@
       "cell_idx": 7
     },
     {
-      "text": "Hsw\nć\n120 45",
+      "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#9BDBB5",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 13,
       "cell_idx": 8
@@ -2457,10 +2457,10 @@
       "cell_idx": 9
     },
     {
-      "text": "",
+      "text": "Hsw\nć\n120 45",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#9BDBB5",
       "style": "",
       "row_idx": 13,
       "cell_idx": 10
@@ -2479,7 +2479,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 13,
       "cell_idx": 12
     },
@@ -2493,13 +2493,31 @@
       "cell_idx": 13
     },
     {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 13,
+      "cell_idx": 14
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 13,
+      "cell_idx": 15
+    },
+    {
       "text": "S 4",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 13,
-      "cell_idx": 14
+      "cell_idx": 16
     },
     {
       "text": "mgr inż. Dudziński Bartosz",
@@ -2508,7 +2526,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 13,
-      "cell_idx": 15
+      "cell_idx": 17
     }
   ],
   [
@@ -2576,13 +2594,22 @@
       "cell_idx": 6
     },
     {
+      "text": "SSW",
+      "colspan": 2,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 14,
+      "cell_idx": 7
+    },
+    {
       "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 14,
-      "cell_idx": 7
+      "cell_idx": 8
     },
     {
       "text": "50%\nSzS\nć\nST.nr 1",
@@ -2591,7 +2618,7 @@
       "bgcolor": "#FF0000",
       "style": "border-right:solid 2.0pt",
       "row_idx": 14,
-      "cell_idx": 8
+      "cell_idx": 9
     },
     {
       "text": "",
@@ -2600,22 +2627,13 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 14,
-      "cell_idx": 9
+      "cell_idx": 10
     },
     {
       "text": "SSW",
       "colspan": 2,
       "rowspan": 1,
       "bgcolor": "silver",
-      "style": "",
-      "row_idx": 14,
-      "cell_idx": 10
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
       "style": "",
       "row_idx": 14,
       "cell_idx": 11
@@ -2625,7 +2643,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 14,
       "cell_idx": 12
     },
@@ -2634,9 +2652,18 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 14,
       "cell_idx": 13
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 14,
+      "cell_idx": 14
     },
     {
       "text": "Npz",
@@ -2645,7 +2672,7 @@
       "bgcolor": "#E2BEE9",
       "style": "",
       "row_idx": 14,
-      "cell_idx": 14
+      "cell_idx": 15
     },
     {
       "text": "Narzędzia pracy zespołowej",
@@ -2654,7 +2681,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 14,
-      "cell_idx": 15
+      "cell_idx": 16
     }
   ],
   [
@@ -3115,10 +3142,10 @@
       "cell_idx": 4
     },
     {
-      "text": "Sstk\nw\n0.09 42",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#FF80FF",
+      "bgcolor": "",
       "style": "",
       "row_idx": 18,
       "cell_idx": 5
@@ -3771,10 +3798,10 @@
       "cell_idx": 5
     },
     {
-      "text": "",
+      "text": "Sstk\nw\n0.09 42",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#FF80FF",
       "style": "",
       "row_idx": 22,
       "cell_idx": 6

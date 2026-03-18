@@ -3043,10 +3043,10 @@
       "cell_idx": 4
     },
     {
-      "text": "Sstk\nw\n0.09 42",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#FF80FF",
+      "bgcolor": "",
       "style": "",
       "row_idx": 18,
       "cell_idx": 5
@@ -3726,10 +3726,10 @@
       "cell_idx": 6
     },
     {
-      "text": "",
+      "text": "Sstk\nw\n0.09 42",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#FF80FF",
       "style": "",
       "row_idx": 22,
       "cell_idx": 7

@@ -2377,12 +2377,21 @@
     },
     {
       "text": "SSW",
-      "colspan": 2,
+      "colspan": 1,
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
       "row_idx": 13,
       "cell_idx": 6
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 13,
+      "cell_idx": 7
     },
     {
       "text": "50%\nSzS\nw\nAW 1",
@@ -2391,22 +2400,13 @@
       "bgcolor": "#FF0000",
       "style": "border-right:solid 2.0pt",
       "row_idx": 13,
-      "cell_idx": 7
+      "cell_idx": 8
     },
     {
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "silver",
-      "style": "",
-      "row_idx": 13,
-      "cell_idx": 8
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
       "style": "",
       "row_idx": 13,
       "cell_idx": 9
@@ -2434,7 +2434,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 13,
       "cell_idx": 12
     },
@@ -2443,12 +2443,12 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 13,
       "cell_idx": 13
     },
     {
-      "text": "S 4",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -2457,13 +2457,22 @@
       "cell_idx": 14
     },
     {
-      "text": "mgr inż. Dudziński Bartosz",
+      "text": "S 4",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 13,
       "cell_idx": 15
+    },
+    {
+      "text": "mgr inż. Dudziński Bartosz",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 13,
+      "cell_idx": 16
     }
   ],
   [
@@ -2998,10 +3007,10 @@
       "cell_idx": 4
     },
     {
-      "text": "Sstk\nw\n0.09 42",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#FF80FF",
+      "bgcolor": "",
       "style": "",
       "row_idx": 18,
       "cell_idx": 5
@@ -3645,10 +3654,10 @@
       "cell_idx": 5
     },
     {
-      "text": "",
+      "text": "Sstk\nw\n0.09 42",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#FF80FF",
       "style": "",
       "row_idx": 22,
       "cell_idx": 6
