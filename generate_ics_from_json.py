@@ -393,10 +393,12 @@ def process_schedule(grid: dict, wf_details: dict) -> list[dict]:
                 if notes:
                     desc_parts.append(notes)
 
+                wf_location = ""
                 if "WF" in summary.upper() and wf_details:
                     wf_key = base_date.date()
                     if wf_key in wf_details:
-                        desc_parts.append(f"WF: {wf_details[wf_key]}")
+                        wf_location = wf_details[wf_key]
+                        desc_parts.append(f"WF: {wf_location}")
 
                 description = "\n".join(desc_parts)
 
@@ -405,7 +407,7 @@ def process_schedule(grid: dict, wf_details: dict) -> list[dict]:
                     "dtstart": format_dt(dtstart),
                     "dtend": format_dt(dtend),
                     "summary": summary,
-                    "location": room,
+                    "location": wf_location if wf_location else room,
                     "description": description,
                 }
                 events.append(ev)
