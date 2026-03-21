@@ -738,10 +738,10 @@
       "cell_idx": 3
     },
     {
-      "text": "Hsw\nw\n315 S",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#9BDBB5",
+      "bgcolor": "",
       "style": "",
       "row_idx": 4,
       "cell_idx": 4
@@ -2077,7 +2077,7 @@
     {
       "text": "SSW",
       "colspan": 2,
-      "rowspan": 6,
+      "rowspan": 3,
       "bgcolor": "",
       "style": "",
       "row_idx": 11,
@@ -2513,36 +2513,36 @@
       "cell_idx": 3
     },
     {
-      "text": "SSW",
+      "text": "",
       "colspan": 1,
-      "rowspan": 3,
+      "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 14,
       "cell_idx": 4
     },
     {
-      "text": "SSW",
-      "colspan": 3,
-      "rowspan": 3,
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 14,
       "cell_idx": 5
     },
     {
-      "text": "SSW",
+      "text": "",
       "colspan": 1,
-      "rowspan": 3,
+      "rowspan": 1,
       "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 14,
       "cell_idx": 6
     },
     {
-      "text": "SSW",
-      "colspan": 3,
-      "rowspan": 3,
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 14,
@@ -2562,7 +2562,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 14,
       "cell_idx": 9
     },
@@ -2571,9 +2571,63 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 14,
       "cell_idx": 10
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 14,
+      "cell_idx": 11
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 14,
+      "cell_idx": 12
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 14,
+      "cell_idx": 13
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 14,
+      "cell_idx": 14
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 14,
+      "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 14,
+      "cell_idx": 16
     },
     {
       "text": "Npz",
@@ -2582,7 +2636,7 @@
       "bgcolor": "#E2BEE9",
       "style": "",
       "row_idx": 14,
-      "cell_idx": 11
+      "cell_idx": 17
     },
     {
       "text": "Narzędzia pracy zespołowej",
@@ -2591,7 +2645,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 14,
-      "cell_idx": 12
+      "cell_idx": 18
     }
   ],
   [
@@ -2623,13 +2677,58 @@
       "cell_idx": 2
     },
     {
+      "text": "SSW",
+      "colspan": 2,
+      "rowspan": 2,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 15,
+      "cell_idx": 3
+    },
+    {
+      "text": "SSW",
+      "colspan": 1,
+      "rowspan": 2,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 15,
+      "cell_idx": 4
+    },
+    {
+      "text": "SSW",
+      "colspan": 3,
+      "rowspan": 2,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 15,
+      "cell_idx": 5
+    },
+    {
+      "text": "SSW",
+      "colspan": 1,
+      "rowspan": 2,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 15,
+      "cell_idx": 6
+    },
+    {
+      "text": "SSW",
+      "colspan": 3,
+      "rowspan": 2,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 15,
+      "cell_idx": 7
+    },
+    {
       "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 15,
-      "cell_idx": 3
+      "cell_idx": 8
     },
     {
       "text": "",
@@ -2638,7 +2737,7 @@
       "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 15,
-      "cell_idx": 4
+      "cell_idx": 9
     },
     {
       "text": "",
@@ -2647,7 +2746,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 15,
-      "cell_idx": 5
+      "cell_idx": 10
     },
     {
       "text": "w 8",
@@ -2656,7 +2755,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 15,
-      "cell_idx": 6
+      "cell_idx": 11
     },
     {
       "text": "dr hab. inż. Piotrowski Zbigniew",
@@ -2665,7 +2764,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 15,
-      "cell_idx": 7
+      "cell_idx": 12
     }
   ],
   [
@@ -5218,10 +5317,10 @@
       "cell_idx": 9
     },
     {
-      "text": "",
+      "text": "Hsw\nw\naE S",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#9BDBB5",
       "style": "border-right:solid 2.0pt",
       "row_idx": 30,
       "cell_idx": 10
