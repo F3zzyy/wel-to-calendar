@@ -3234,7 +3234,7 @@
       "cell_idx": 8
     },
     {
-      "text": "TuP\nw\n0.09 42",
+      "text": "TuP\nw\n3.8 75",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "#80FF00",
@@ -6117,10 +6117,10 @@
       "cell_idx": 18
     },
     {
-      "text": "XFiz1\nEp\naF S",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#FF80FF",
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 34,
       "cell_idx": 19
@@ -7964,10 +7964,10 @@
       "cell_idx": 6
     },
     {
-      "text": "XFiz1\nw\n19 36; Laptop WCY",
-      "colspan": 3,
-      "rowspan": 2,
-      "bgcolor": "#FF80FF",
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "",
       "row_idx": 44,
       "cell_idx": 7
@@ -7977,33 +7977,33 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 44,
       "cell_idx": 8
     },
     {
-      "text": "XFiz1\nw\n19 36",
-      "colspan": 3,
-      "rowspan": 2,
-      "bgcolor": "#FF80FF",
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "",
       "row_idx": 44,
       "cell_idx": 9
     },
     {
-      "text": "XFiz1\nw\n19 36",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#FF80FF",
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 44,
       "cell_idx": 10
     },
     {
-      "text": "XOis1\nć\n315a S",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
-      "bgcolor": "#80FFFF",
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "",
       "row_idx": 44,
       "cell_idx": 11
@@ -8022,9 +8022,45 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 44,
       "cell_idx": 13
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 44,
+      "cell_idx": 14
+    },
+    {
+      "text": "XOis1\nć\n315a S",
+      "colspan": 1,
+      "rowspan": 2,
+      "bgcolor": "#80FFFF",
+      "style": "",
+      "row_idx": 44,
+      "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 44,
+      "cell_idx": 16
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 44,
+      "cell_idx": 17
     },
     {
       "text": "",
@@ -8033,7 +8069,7 @@
       "bgcolor": "silver",
       "style": "",
       "row_idx": 44,
-      "cell_idx": 14
+      "cell_idx": 18
     },
     {
       "text": "ć 22",
@@ -8042,7 +8078,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 44,
-      "cell_idx": 15
+      "cell_idx": 19
     },
     {
       "text": "kpt. mgr Kamela Przemysław",
@@ -8051,7 +8087,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 44,
-      "cell_idx": 16
+      "cell_idx": 20
     }
   ],
   [
@@ -8123,16 +8159,16 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 45,
       "cell_idx": 7
     },
     {
-      "text": "XFiz1\nć\n19 36; aF S",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#FF80FF",
-      "style": "border-right:solid 2.0pt",
+      "bgcolor": "",
+      "style": "",
       "row_idx": 45,
       "cell_idx": 8
     },
@@ -8150,7 +8186,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 45,
       "cell_idx": 10
     },
@@ -8168,9 +8204,63 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 45,
       "cell_idx": 12
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 45,
+      "cell_idx": 13
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 45,
+      "cell_idx": 14
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 45,
+      "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 45,
+      "cell_idx": 16
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 45,
+      "cell_idx": 17
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 45,
+      "cell_idx": 18
     },
     {
       "text": "",
@@ -8179,7 +8269,7 @@
       "bgcolor": "silver",
       "style": "",
       "row_idx": 45,
-      "cell_idx": 13
+      "cell_idx": 19
     },
     {
       "text": "ć 22",
@@ -8188,7 +8278,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 45,
-      "cell_idx": 14
+      "cell_idx": 20
     },
     {
       "text": "mł. chor. Steć Waldemar",
@@ -8197,7 +8287,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 45,
-      "cell_idx": 15
+      "cell_idx": 21
     }
   ],
   [
@@ -8346,10 +8436,10 @@
       "cell_idx": 15
     },
     {
-      "text": "XFiz1\nE\n19 36; aF S",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#FF80FF",
+      "bgcolor": "",
       "style": "",
       "row_idx": 46,
       "cell_idx": 16
@@ -9083,10 +9173,10 @@
       "cell_idx": 6
     },
     {
-      "text": "XFiz1\nć\n19 36; aF S",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
-      "bgcolor": "#FF80FF",
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "",
       "row_idx": 50,
       "cell_idx": 7
@@ -9101,10 +9191,10 @@
       "cell_idx": 8
     },
     {
-      "text": "XFiz1\nć\n19 36; aF S",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
-      "bgcolor": "#FF80FF",
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "",
       "row_idx": 50,
       "cell_idx": 9
@@ -9119,10 +9209,10 @@
       "cell_idx": 10
     },
     {
-      "text": "XFiz1\nć\n19 36; aF S",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
-      "bgcolor": "#FF80FF",
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "",
       "row_idx": 50,
       "cell_idx": 11
@@ -9137,10 +9227,10 @@
       "cell_idx": 12
     },
     {
-      "text": "XFiz1\nć\n19 36; aF S",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
-      "bgcolor": "#FF80FF",
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 50,
       "cell_idx": 13
@@ -9155,10 +9245,10 @@
       "cell_idx": 14
     },
     {
-      "text": "XFiz1\nć\n19 36; aF S",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#FF80FF",
+      "bgcolor": "",
       "style": "",
       "row_idx": 50,
       "cell_idx": 15
@@ -9287,7 +9377,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 51,
       "cell_idx": 7
     },
@@ -9305,7 +9395,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 51,
       "cell_idx": 9
     },
@@ -9323,7 +9413,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 51,
       "cell_idx": 11
     },
@@ -9332,7 +9422,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 51,
       "cell_idx": 12
     },
@@ -9340,13 +9430,13 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 51,
       "cell_idx": 13
     },
     {
-      "text": "S 8",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -9355,13 +9445,49 @@
       "cell_idx": 14
     },
     {
-      "text": "mgr inż. Grabiec Waldemar",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 51,
       "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 51,
+      "cell_idx": 16
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 51,
+      "cell_idx": 17
+    },
+    {
+      "text": "S 8",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 51,
+      "cell_idx": 18
+    },
+    {
+      "text": "mgr inż. Grabiec Waldemar",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 51,
+      "cell_idx": 19
     }
   ],
   [
@@ -15360,1093 +15486,12 @@
       "cell_idx": 21
     },
     {
-      "text": "XFiz1",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "#FF80FF",
-      "style": "",
-      "row_idx": 79,
-      "cell_idx": 22
-    },
-    {
-      "text": "XFizyka 1",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 79,
-      "cell_idx": 23
-    }
-  ],
-  [
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 80,
-      "cell_idx": 0
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 80,
-      "cell_idx": 1
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 80,
-      "cell_idx": 2
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 3
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 4
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 80,
-      "cell_idx": 5
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 6
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 80,
-      "cell_idx": 7
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 8
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 9
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 10
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 80,
-      "cell_idx": 11
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 12
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 13
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 14
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 80,
-      "cell_idx": 15
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 16
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 17
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 18
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 19
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 80,
-      "cell_idx": 20
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 21
-    },
-    {
-      "text": "w 26",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 22
-    },
-    {
-      "text": "prof. dr hab. inż. Kłosowicz Stanisław",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 80,
-      "cell_idx": 23
-    }
-  ],
-  [
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 81,
-      "cell_idx": 0
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 81,
-      "cell_idx": 1
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 81,
-      "cell_idx": 2
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 3
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 4
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 81,
-      "cell_idx": 5
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 6
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 81,
-      "cell_idx": 7
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 8
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 9
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 10
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 81,
-      "cell_idx": 11
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 12
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 13
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 14
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 81,
-      "cell_idx": 15
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 16
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 17
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 18
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 19
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 81,
-      "cell_idx": 20
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 21
-    },
-    {
-      "text": "ć 20",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 22
-    },
-    {
-      "text": "dr inż. Ciupa Robert",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 81,
-      "cell_idx": 23
-    }
-  ],
-  [
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 82,
-      "cell_idx": 0
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 82,
-      "cell_idx": 1
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 82,
-      "cell_idx": 2
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 3
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 4
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 82,
-      "cell_idx": 5
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 6
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 82,
-      "cell_idx": 7
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 8
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 9
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 10
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 82,
-      "cell_idx": 11
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 12
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 13
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 14
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 82,
-      "cell_idx": 15
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 16
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 17
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 18
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 19
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 82,
-      "cell_idx": 20
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 21
-    },
-    {
-      "text": "E 2",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 22
-    },
-    {
-      "text": "prof. dr hab. inż. Kłosowicz Stanisław",
-      "colspan": 1,
-      "rowspan": 2,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 82,
-      "cell_idx": 23
-    }
-  ],
-  [
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 83,
-      "cell_idx": 0
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 83,
-      "cell_idx": 1
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 83,
-      "cell_idx": 2
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 3
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 4
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 83,
-      "cell_idx": 5
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 6
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 83,
-      "cell_idx": 7
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 8
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 9
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 10
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 83,
-      "cell_idx": 11
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 12
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 13
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 14
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 83,
-      "cell_idx": 15
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 16
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 17
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 18
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 19
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 83,
-      "cell_idx": 20
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 21
-    },
-    {
-      "text": "Ep 2",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 83,
-      "cell_idx": 22
-    }
-  ],
-  [
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 84,
-      "cell_idx": 0
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 84,
-      "cell_idx": 1
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 84,
-      "cell_idx": 2
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 3
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 4
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 84,
-      "cell_idx": 5
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 6
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 84,
-      "cell_idx": 7
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 8
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 9
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 10
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 84,
-      "cell_idx": 11
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 12
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 13
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 14
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 84,
-      "cell_idx": 15
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 16
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 17
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 18
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 19
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 84,
-      "cell_idx": 20
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 84,
-      "cell_idx": 21
-    },
-    {
       "text": "XOis1",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "#80FFFF",
       "style": "",
-      "row_idx": 84,
+      "row_idx": 79,
       "cell_idx": 22
     },
     {
@@ -16455,6 +15500,1096 @@
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
+      "row_idx": 79,
+      "cell_idx": 23
+    }
+  ],
+  [
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 80,
+      "cell_idx": 0
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 80,
+      "cell_idx": 1
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 80,
+      "cell_idx": 2
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 3
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 4
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 80,
+      "cell_idx": 5
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 6
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 80,
+      "cell_idx": 7
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 8
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 9
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 10
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 80,
+      "cell_idx": 11
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 12
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 13
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 14
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 80,
+      "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 16
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 17
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 18
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 19
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 80,
+      "cell_idx": 20
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 21
+    },
+    {
+      "text": "w 20",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 22
+    },
+    {
+      "text": "dr inż. Szulim Marek",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 80,
+      "cell_idx": 23
+    }
+  ],
+  [
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 81,
+      "cell_idx": 0
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 81,
+      "cell_idx": 1
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 81,
+      "cell_idx": 2
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 3
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 4
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 81,
+      "cell_idx": 5
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 6
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 81,
+      "cell_idx": 7
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 8
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 9
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 10
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 81,
+      "cell_idx": 11
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 12
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 13
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 14
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 81,
+      "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 16
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 17
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 18
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 19
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 81,
+      "cell_idx": 20
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 21
+    },
+    {
+      "text": "ć 24",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 22
+    },
+    {
+      "text": "mgr inż. Zachwieja Eugeniusz",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 81,
+      "cell_idx": 23
+    }
+  ],
+  [
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 82,
+      "cell_idx": 0
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 82,
+      "cell_idx": 1
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 82,
+      "cell_idx": 2
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 3
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 4
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 82,
+      "cell_idx": 5
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 6
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 82,
+      "cell_idx": 7
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 8
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 9
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 10
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 82,
+      "cell_idx": 11
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 12
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 13
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 14
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 82,
+      "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 16
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 17
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 18
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 19
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 82,
+      "cell_idx": 20
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 21
+    },
+    {
+      "text": "Zp. 2",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 22
+    },
+    {
+      "text": "dr inż. Szulim Marek",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 82,
+      "cell_idx": 23
+    }
+  ],
+  [
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 83,
+      "cell_idx": 0
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 83,
+      "cell_idx": 1
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 83,
+      "cell_idx": 2
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 3
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 4
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 83,
+      "cell_idx": 5
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 6
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 83,
+      "cell_idx": 7
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 8
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 9
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 10
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 83,
+      "cell_idx": 11
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 12
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 13
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 14
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 83,
+      "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 16
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 17
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 18
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 19
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 83,
+      "cell_idx": 20
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 21
+    },
+    {
+      "text": "XWF",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "#FFFF80",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 22
+    },
+    {
+      "text": "XWychowanie fizyczne",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 83,
+      "cell_idx": 23
+    }
+  ],
+  [
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 84,
+      "cell_idx": 0
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 84,
+      "cell_idx": 1
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 84,
+      "cell_idx": 2
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 3
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 4
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 84,
+      "cell_idx": 5
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 6
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 84,
+      "cell_idx": 7
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 8
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 9
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 10
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 84,
+      "cell_idx": 11
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 12
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 13
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 14
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 84,
+      "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 16
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 17
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 18
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 19
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 84,
+      "cell_idx": 20
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 21
+    },
+    {
+      "text": "ć 26",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 84,
+      "cell_idx": 22
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
       "row_idx": 84,
       "cell_idx": 23
     }
@@ -16659,1102 +16794,12 @@
       "cell_idx": 21
     },
     {
-      "text": "w 20",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 85,
-      "cell_idx": 22
-    },
-    {
-      "text": "dr inż. Szulim Marek",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 85,
-      "cell_idx": 23
-    }
-  ],
-  [
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 86,
-      "cell_idx": 0
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 86,
-      "cell_idx": 1
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 86,
-      "cell_idx": 2
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 3
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 4
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 86,
-      "cell_idx": 5
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 6
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 86,
-      "cell_idx": 7
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 8
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 9
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 10
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 86,
-      "cell_idx": 11
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 12
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 13
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 14
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 86,
-      "cell_idx": 15
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 16
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 17
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 18
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 19
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 86,
-      "cell_idx": 20
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 21
-    },
-    {
-      "text": "ć 24",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 22
-    },
-    {
-      "text": "mgr inż. Zachwieja Eugeniusz",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 86,
-      "cell_idx": 23
-    }
-  ],
-  [
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 87,
-      "cell_idx": 0
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 87,
-      "cell_idx": 1
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 87,
-      "cell_idx": 2
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 3
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 4
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 87,
-      "cell_idx": 5
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 6
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 87,
-      "cell_idx": 7
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 8
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 9
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 10
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 87,
-      "cell_idx": 11
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 12
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 13
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 14
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 87,
-      "cell_idx": 15
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 16
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 17
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 18
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 19
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 87,
-      "cell_idx": 20
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 21
-    },
-    {
-      "text": "Zp. 2",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 22
-    },
-    {
-      "text": "dr inż. Szulim Marek",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 87,
-      "cell_idx": 23
-    }
-  ],
-  [
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 88,
-      "cell_idx": 0
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 88,
-      "cell_idx": 1
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 88,
-      "cell_idx": 2
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 3
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 4
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 88,
-      "cell_idx": 5
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 6
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 88,
-      "cell_idx": 7
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 8
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 9
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 10
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 88,
-      "cell_idx": 11
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 12
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 13
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 14
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 88,
-      "cell_idx": 15
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 16
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 17
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 18
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 19
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 88,
-      "cell_idx": 20
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 21
-    },
-    {
-      "text": "XWF",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "#FFFF80",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 22
-    },
-    {
-      "text": "XWychowanie fizyczne",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 88,
-      "cell_idx": 23
-    }
-  ],
-  [
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 89,
-      "cell_idx": 0
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 89,
-      "cell_idx": 1
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 89,
-      "cell_idx": 2
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 3
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 4
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 89,
-      "cell_idx": 5
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 6
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 89,
-      "cell_idx": 7
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 8
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 9
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 10
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 89,
-      "cell_idx": 11
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 12
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 13
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 14
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 89,
-      "cell_idx": 15
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 16
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 17
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 18
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 19
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 89,
-      "cell_idx": 20
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 21
-    },
-    {
-      "text": "ć 26",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 22
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 89,
-      "cell_idx": 23
-    }
-  ],
-  [
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 90,
-      "cell_idx": 0
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 90,
-      "cell_idx": 1
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 90,
-      "cell_idx": 2
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 3
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 4
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 90,
-      "cell_idx": 5
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 6
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 90,
-      "cell_idx": 7
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 8
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 9
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 10
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 90,
-      "cell_idx": 11
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 12
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 13
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 14
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 90,
-      "cell_idx": 15
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 16
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 17
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 18
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 19
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 90,
-      "cell_idx": 20
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "silver",
-      "style": "",
-      "row_idx": 90,
-      "cell_idx": 21
-    },
-    {
       "text": "ZŻWAT",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "#A9F384",
       "style": "",
-      "row_idx": 90,
+      "row_idx": 85,
       "cell_idx": 22
     },
     {
@@ -17763,7 +16808,7 @@
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
-      "row_idx": 90,
+      "row_idx": 85,
       "cell_idx": 23
     }
   ],
@@ -17774,7 +16819,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 0
     },
     {
@@ -17783,7 +16828,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 1
     },
     {
@@ -17792,7 +16837,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 2
     },
     {
@@ -17801,7 +16846,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 3
     },
     {
@@ -17810,7 +16855,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 4
     },
     {
@@ -17819,7 +16864,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 5
     },
     {
@@ -17828,7 +16873,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 6
     },
     {
@@ -17837,7 +16882,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 7
     },
     {
@@ -17846,7 +16891,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 8
     },
     {
@@ -17855,7 +16900,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 9
     },
     {
@@ -17864,7 +16909,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 10
     },
     {
@@ -17873,7 +16918,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 11
     },
     {
@@ -17882,7 +16927,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 12
     },
     {
@@ -17891,7 +16936,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 13
     },
     {
@@ -17900,7 +16945,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 14
     },
     {
@@ -17909,7 +16954,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 15
     },
     {
@@ -17918,7 +16963,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 16
     },
     {
@@ -17927,7 +16972,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 17
     },
     {
@@ -17936,7 +16981,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 18
     },
     {
@@ -17945,7 +16990,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 19
     },
     {
@@ -17954,7 +16999,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 20
     },
     {
@@ -17963,7 +17008,7 @@
       "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 21
     },
     {
@@ -17972,7 +17017,7 @@
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 22
     },
     {
@@ -17981,7 +17026,7 @@
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
-      "row_idx": 91,
+      "row_idx": 86,
       "cell_idx": 23
     }
   ]
