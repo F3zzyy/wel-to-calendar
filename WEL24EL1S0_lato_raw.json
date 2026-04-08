@@ -4818,10 +4818,10 @@
       "cell_idx": 5
     },
     {
-      "text": "Tmf\nL\n30 54E",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
-      "bgcolor": "#E8FD9F",
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "",
       "row_idx": 28,
       "cell_idx": 6
@@ -5027,19 +5027,19 @@
       "cell_idx": 6
     },
     {
-      "text": "Popt\nL\n9 70; 006 144; 10 46; 012 136;",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#D5FFD5",
+      "bgcolor": "",
       "style": "",
       "row_idx": 29,
       "cell_idx": 7
     },
     {
-      "text": "",
+      "text": "Popt\nL\n9 70; 006 144; 10 46; 012 136;",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#D5FFD5",
       "style": "",
       "row_idx": 29,
       "cell_idx": 8
@@ -5067,7 +5067,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 29,
       "cell_idx": 11
     },
@@ -5076,12 +5076,12 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 29,
       "cell_idx": 12
     },
     {
-      "text": "L 10",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -5090,13 +5090,22 @@
       "cell_idx": 13
     },
     {
-      "text": "dr hab. inż. (prof. ucz.) Młyńczak Jarosław",
+      "text": "L 10",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 29,
       "cell_idx": 14
+    },
+    {
+      "text": "dr hab. inż. (prof. ucz.) Młyńczak Jarosław",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 29,
+      "cell_idx": 15
     }
   ],
   [
@@ -6054,10 +6063,10 @@
       "cell_idx": 11
     },
     {
-      "text": "",
+      "text": "Tmf\nL\n30 54E",
       "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
+      "rowspan": 2,
+      "bgcolor": "#E8FD9F",
       "style": "",
       "row_idx": 34,
       "cell_idx": 12
@@ -6285,7 +6294,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 35,
       "cell_idx": 14
     },
@@ -6294,18 +6303,9 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 35,
-      "cell_idx": 15
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
       "style": "",
       "row_idx": 35,
-      "cell_idx": 16
+      "cell_idx": 15
     },
     {
       "text": "L 2",
@@ -6314,7 +6314,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 35,
-      "cell_idx": 17
+      "cell_idx": 16
     },
     {
       "text": "mgr inż. Fiderkiewicz Szymon",
@@ -6323,7 +6323,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 35,
-      "cell_idx": 18
+      "cell_idx": 17
     }
   ],
   [

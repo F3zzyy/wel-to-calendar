@@ -3762,10 +3762,10 @@
       "cell_idx": 6
     },
     {
-      "text": "Npz\nL\n115 47",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
-      "bgcolor": "#E2BEE9",
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "",
       "row_idx": 22,
       "cell_idx": 7
@@ -3789,10 +3789,10 @@
       "cell_idx": 9
     },
     {
-      "text": "",
+      "text": "Npz\nL\n115 47",
       "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
+      "rowspan": 2,
+      "bgcolor": "#E2BEE9",
       "style": "",
       "row_idx": 22,
       "cell_idx": 10
@@ -3975,7 +3975,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 23,
       "cell_idx": 8
     },
@@ -3984,7 +3984,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 23,
       "cell_idx": 9
     },
@@ -5326,10 +5326,10 @@
       "cell_idx": 10
     },
     {
-      "text": "",
+      "text": "Tmf\nL\n30 54E",
       "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
+      "rowspan": 2,
+      "bgcolor": "#E8FD9F",
       "style": "",
       "row_idx": 30,
       "cell_idx": 11
@@ -5557,7 +5557,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 31,
       "cell_idx": 13
     },
@@ -5566,7 +5566,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 31,
       "cell_idx": 14
     },
@@ -5593,7 +5593,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 31,
       "cell_idx": 17
     },
@@ -5602,18 +5602,9 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 31,
-      "cell_idx": 18
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
       "style": "",
       "row_idx": 31,
-      "cell_idx": 19
+      "cell_idx": 18
     },
     {
       "text": "L 10",
@@ -5622,7 +5613,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 31,
-      "cell_idx": 20
+      "cell_idx": 19
     },
     {
       "text": "dr inż. Bareła Jarosław",
@@ -5631,7 +5622,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 31,
-      "cell_idx": 21
+      "cell_idx": 20
     }
   ],
   [
@@ -6481,10 +6472,10 @@
       "cell_idx": 6
     },
     {
-      "text": "Tmf\nL\n30 54E",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
-      "bgcolor": "#E8FD9F",
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "",
       "row_idx": 36,
       "cell_idx": 7
@@ -6672,19 +6663,19 @@
       "cell_idx": 5
     },
     {
-      "text": "Pmd\nć\n116 45",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#80FFFF",
+      "bgcolor": "",
       "style": "",
       "row_idx": 37,
       "cell_idx": 6
     },
     {
-      "text": "",
+      "text": "Pmd\nć\n116 45",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#80FFFF",
       "style": "",
       "row_idx": 37,
       "cell_idx": 7
@@ -6694,7 +6685,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 37,
       "cell_idx": 8
     },
@@ -6703,24 +6694,24 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 37,
       "cell_idx": 9
-    },
-    {
-      "text": "50%\nTmf\nL\n7 54E; 26 54E",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "#E8FD9F",
-      "style": "",
-      "row_idx": 37,
-      "cell_idx": 10
     },
     {
       "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
+      "style": "",
+      "row_idx": 37,
+      "cell_idx": 10
+    },
+    {
+      "text": "50%\nTmf\nL\n7 54E; 26 54E",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "#E8FD9F",
       "style": "",
       "row_idx": 37,
       "cell_idx": 11
@@ -6730,7 +6721,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 37,
       "cell_idx": 12
     },
@@ -6739,7 +6730,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 37,
       "cell_idx": 13
     },
@@ -6775,7 +6766,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 37,
       "cell_idx": 17
     },
@@ -6784,9 +6775,18 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 37,
       "cell_idx": 18
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 37,
+      "cell_idx": 19
     },
     {
       "text": "Prad",
@@ -6795,7 +6795,7 @@
       "bgcolor": "#CFCFA0",
       "style": "",
       "row_idx": 37,
-      "cell_idx": 19
+      "cell_idx": 20
     },
     {
       "text": "Podstawy radiokomunikacji",
@@ -6804,7 +6804,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 37,
-      "cell_idx": 20
+      "cell_idx": 21
     }
   ],
   [
