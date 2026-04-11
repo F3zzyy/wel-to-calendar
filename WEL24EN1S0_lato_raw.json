@@ -374,10 +374,10 @@
       "cell_idx": 6
     },
     {
-      "text": "Pmd\nć\n103 61",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#80FFFF",
+      "bgcolor": "",
       "style": "",
       "row_idx": 2,
       "cell_idx": 7
@@ -3771,10 +3771,10 @@
       "cell_idx": 11
     },
     {
-      "text": "",
+      "text": "Pmd\nć\n103 61",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#80FFFF",
       "style": "",
       "row_idx": 22,
       "cell_idx": 12

@@ -374,10 +374,10 @@
       "cell_idx": 6
     },
     {
-      "text": "Pmd\nć\n103 61",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#80FFFF",
+      "bgcolor": "",
       "style": "",
       "row_idx": 2,
       "cell_idx": 7
@@ -3652,10 +3652,10 @@
       "cell_idx": 7
     },
     {
-      "text": "",
+      "text": "PNa\nć\n104 61",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#FFB08A",
       "style": "border-right:solid 2.0pt",
       "row_idx": 21,
       "cell_idx": 8
@@ -3825,10 +3825,10 @@
       "cell_idx": 10
     },
     {
-      "text": "",
+      "text": "Pmd\nć\n103 61",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#80FFFF",
       "style": "",
       "row_idx": 22,
       "cell_idx": 11
@@ -6881,10 +6881,10 @@
       "cell_idx": 6
     },
     {
-      "text": "PNa\nć\n103 61",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#FFB08A",
+      "bgcolor": "",
       "style": "",
       "row_idx": 38,
       "cell_idx": 7
