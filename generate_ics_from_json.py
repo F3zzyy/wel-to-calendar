@@ -39,7 +39,7 @@ TIME_MAP = {
 }
 
 # Komórki do pominięcia (np. blokady, zajęcia innej grupy)
-SKIP_KEYWORDS = {"XWF", "XFiz1", "SSW"}
+SKIP_KEYWORDS = {"XWF", "XFiz1", "XOis1", "SSW"}
 
 # Mapa miesięcy w zapisie rzymskim
 ROMAN_MONTHS = {
@@ -180,6 +180,12 @@ def find_time_slot(cell_text: str) -> str | None:
 
 def parse_event_details(text: str) -> dict:
     lines = [l.strip() for l in text.split("\n") if l.strip()]
+    if not lines:
+        return {"summary": "", "room": "", "teacher": "", "notes": ""}
+
+    # Pomiń adnotacje procentowe (np. "50%" = połowa grupy)
+    while lines and re.match(r'^\d+%$', lines[0]):
+        lines = lines[1:]
     if not lines:
         return {"summary": "", "room": "", "teacher": "", "notes": ""}
 
@@ -353,8 +359,10 @@ def process_schedule(grid: dict, wf_details: dict) -> list[dict]:
                 if cell is None:
                     continue
 
-                cell_id = id(cell)
-                if cell_id in processed_cells:
+                # Klucz uwzględnia kolumnę: ta sama komórka (rowspan) w tej samej
+                # kolumnie to jeden event; ale colspan w różnych kolumnach = różne daty
+                cell_key = (id(cell), col_idx)
+                if cell_key in processed_cells:
                     continue
 
                 text = cell["text"].strip()
@@ -379,7 +387,7 @@ def process_schedule(grid: dict, wf_details: dict) -> list[dict]:
                         leh, lem = map(int, last_end.split(":"))
                         dtend = base_date.replace(hour=leh, minute=lem)
 
-                processed_cells.add(cell_id)
+                processed_cells.add(cell_key)
 
                 details = parse_event_details(text)
                 summary = details["summary"]
