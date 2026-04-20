@@ -40,7 +40,7 @@ jobs:
           python generate_ics_from_json.py WEL24EN1S0
           python generate_ics_from_json.py WEL24EL1S0
           python generate_ics_from_json.py WEL24EA1S0
-          python extract_schedule_data.py WEL24EL4S0
+          python generate_ics_from_json.py WEL24EL4S0
 
       - name: Sprawdź zmiany w ICS
         id: check_changes
