@@ -2102,40 +2102,13 @@
       "cell_idx": 8
     },
     {
-      "text": "SSW",
-      "colspan": 3,
+      "text": "",
+      "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 11,
       "cell_idx": 9
-    },
-    {
-      "text": "SSW",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 11,
-      "cell_idx": 10
-    },
-    {
-      "text": "DWiPD\nć\n2 45",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "#D38CFB",
-      "style": "",
-      "row_idx": 11,
-      "cell_idx": 11
-    },
-    {
-      "text": "TA\nr\nBIBL /22",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "#0ED883",
-      "style": "",
-      "row_idx": 11,
-      "cell_idx": 12
     },
     {
       "text": "",
@@ -2144,14 +2117,41 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 11,
+      "cell_idx": 10
+    },
+    {
+      "text": "SSW",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 11,
+      "cell_idx": 11
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 11,
+      "cell_idx": 12
+    },
+    {
+      "text": "DWiPD\nć\n2 45",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "#D38CFB",
+      "style": "",
+      "row_idx": 11,
       "cell_idx": 13
     },
     {
-      "text": "Tmf\nE\naE S",
+      "text": "TA\nr\nBIBL /22",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E8FD9F",
-      "style": "border-right:solid 2.0pt",
+      "bgcolor": "#0ED883",
+      "style": "",
       "row_idx": 11,
       "cell_idx": 14
     },
@@ -2165,13 +2165,31 @@
       "cell_idx": 15
     },
     {
+      "text": "Tmf\nE\naE S",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "#E8FD9F",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 11,
+      "cell_idx": 16
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 11,
+      "cell_idx": 17
+    },
+    {
       "text": "L 12",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 11,
-      "cell_idx": 16
+      "cell_idx": 18
     }
   ],
   [
@@ -2266,8 +2284,8 @@
       "cell_idx": 9
     },
     {
-      "text": "SSW",
-      "colspan": 2,
+      "text": "",
+      "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
@@ -2275,19 +2293,19 @@
       "cell_idx": 10
     },
     {
-      "text": "DWiPD\nć\n119 45",
+      "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#D38CFB",
+      "bgcolor": "",
       "style": "",
       "row_idx": 12,
       "cell_idx": 11
     },
     {
-      "text": "",
+      "text": "DWiPD\nć\n119 45",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#D38CFB",
       "style": "",
       "row_idx": 12,
       "cell_idx": 12
@@ -2297,7 +2315,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 12,
       "cell_idx": 13
     },
@@ -2306,12 +2324,12 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 12,
       "cell_idx": 14
     },
     {
-      "text": "L 12",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -2320,13 +2338,22 @@
       "cell_idx": 15
     },
     {
-      "text": "mgr inż. Kryk Michał",
+      "text": "L 12",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 12,
       "cell_idx": 16
+    },
+    {
+      "text": "mgr inż. Kryk Michał",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 12,
+      "cell_idx": 17
     }
   ],
   [
@@ -2385,7 +2412,7 @@
       "cell_idx": 5
     },
     {
-      "text": "SSW",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -2412,7 +2439,7 @@
       "cell_idx": 8
     },
     {
-      "text": "SSW",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -2704,27 +2731,27 @@
       "cell_idx": 4
     },
     {
-      "text": "SSW",
-      "colspan": 3,
-      "rowspan": 2,
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 15,
       "cell_idx": 5
     },
     {
-      "text": "SSW",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
+      "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 15,
       "cell_idx": 6
     },
     {
-      "text": "SSW",
-      "colspan": 3,
-      "rowspan": 2,
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 15,
@@ -2735,7 +2762,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 15,
       "cell_idx": 8
     },
@@ -2744,7 +2771,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 15,
       "cell_idx": 9
     },
@@ -2758,7 +2785,7 @@
       "cell_idx": 10
     },
     {
-      "text": "w 8",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -2767,13 +2794,49 @@
       "cell_idx": 11
     },
     {
-      "text": "dr hab. inż. Piotrowski Zbigniew",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 15,
       "cell_idx": 12
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 15,
+      "cell_idx": 13
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 15,
+      "cell_idx": 14
+    },
+    {
+      "text": "w 8",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 15,
+      "cell_idx": 15
+    },
+    {
+      "text": "dr hab. inż. Piotrowski Zbigniew",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 15,
+      "cell_idx": 16
     }
   ],
   [
@@ -2818,7 +2881,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 16,
       "cell_idx": 4
     },
@@ -2832,13 +2895,76 @@
       "cell_idx": 5
     },
     {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 16,
+      "cell_idx": 6
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 16,
+      "cell_idx": 7
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 16,
+      "cell_idx": 8
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 16,
+      "cell_idx": 9
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 16,
+      "cell_idx": 10
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 16,
+      "cell_idx": 11
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 16,
+      "cell_idx": 12
+    },
+    {
       "text": "L 16",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 16,
-      "cell_idx": 6
+      "cell_idx": 13
     },
     {
       "text": "mgr inż. Bistroń Marta",
@@ -2847,7 +2973,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 16,
-      "cell_idx": 7
+      "cell_idx": 14
     }
   ],
   [

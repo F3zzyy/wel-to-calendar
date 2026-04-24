@@ -2284,18 +2284,18 @@
       "cell_idx": 8
     },
     {
-      "text": "SSW",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
+      "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 12,
       "cell_idx": 9
     },
     {
-      "text": "SSW",
+      "text": "",
       "colspan": 1,
-      "rowspan": 5,
+      "rowspan": 1,
       "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 12,
@@ -2311,9 +2311,9 @@
       "cell_idx": 11
     },
     {
-      "text": "SSW",
-      "colspan": 2,
-      "rowspan": 3,
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 12,
@@ -2333,7 +2333,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 12,
       "cell_idx": 14
     },
@@ -2342,9 +2342,18 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 12,
       "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 12,
+      "cell_idx": 16
     },
     {
       "text": "ć 10",
@@ -2353,7 +2362,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 12,
-      "cell_idx": 16
+      "cell_idx": 17
     }
   ],
   [
@@ -2439,7 +2448,7 @@
       "cell_idx": 8
     },
     {
-      "text": "SSW",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -2448,10 +2457,10 @@
       "cell_idx": 9
     },
     {
-      "text": "OPW\nć\nPĆT1",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
-      "bgcolor": "#C0D6B7",
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "",
       "row_idx": 13,
       "cell_idx": 10
@@ -2461,16 +2470,16 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 13,
       "cell_idx": 11
     },
     {
-      "text": "",
+      "text": "OPW\nć\nPĆT1",
       "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "rowspan": 2,
+      "bgcolor": "#C0D6B7",
+      "style": "",
       "row_idx": 13,
       "cell_idx": 12
     },
@@ -2484,13 +2493,49 @@
       "cell_idx": 13
     },
     {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 13,
+      "cell_idx": 14
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 13,
+      "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 13,
+      "cell_idx": 16
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 13,
+      "cell_idx": 17
+    },
+    {
       "text": "Ja",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "#D8AFAF",
       "style": "",
       "row_idx": 13,
-      "cell_idx": 14
+      "cell_idx": 18
     },
     {
       "text": "Język angielski",
@@ -2499,7 +2544,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 13,
-      "cell_idx": 15
+      "cell_idx": 19
     }
   ],
   [
@@ -2558,16 +2603,16 @@
       "cell_idx": 5
     },
     {
-      "text": "SSW",
-      "colspan": 3,
-      "rowspan": 3,
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 14,
       "cell_idx": 6
     },
     {
-      "text": "",
+      "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -2580,7 +2625,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 14,
       "cell_idx": 8
     },
@@ -2589,12 +2634,12 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 14,
       "cell_idx": 9
     },
     {
-      "text": "ć 60",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -2610,6 +2655,51 @@
       "style": "",
       "row_idx": 14,
       "cell_idx": 11
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 14,
+      "cell_idx": 12
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 14,
+      "cell_idx": 13
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 14,
+      "cell_idx": 14
+    },
+    {
+      "text": "ć 60",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 14,
+      "cell_idx": 15
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 14,
+      "cell_idx": 16
     }
   ],
   [
@@ -2650,9 +2740,9 @@
       "cell_idx": 3
     },
     {
-      "text": "SSW",
-      "colspan": 3,
-      "rowspan": 2,
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 15,
@@ -2672,7 +2762,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 15,
       "cell_idx": 6
     },
@@ -2681,9 +2771,63 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 15,
       "cell_idx": 7
+    },
+    {
+      "text": "SSW",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 15,
+      "cell_idx": 8
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 15,
+      "cell_idx": 9
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 15,
+      "cell_idx": 10
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 15,
+      "cell_idx": 11
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 15,
+      "cell_idx": 12
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 15,
+      "cell_idx": 13
     },
     {
       "text": "Npz",
@@ -2692,7 +2836,7 @@
       "bgcolor": "#E2BEE9",
       "style": "",
       "row_idx": 15,
-      "cell_idx": 8
+      "cell_idx": 14
     },
     {
       "text": "Narzędzia pracy zespołowej",
@@ -2701,7 +2845,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 15,
-      "cell_idx": 9
+      "cell_idx": 15
     }
   ],
   [
@@ -2746,7 +2890,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 16,
       "cell_idx": 4
     },
@@ -2760,13 +2904,76 @@
       "cell_idx": 5
     },
     {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 16,
+      "cell_idx": 6
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 16,
+      "cell_idx": 7
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 16,
+      "cell_idx": 8
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 16,
+      "cell_idx": 9
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 16,
+      "cell_idx": 10
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
+      "row_idx": 16,
+      "cell_idx": 11
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 16,
+      "cell_idx": 12
+    },
+    {
       "text": "w 8",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 16,
-      "cell_idx": 6
+      "cell_idx": 13
     },
     {
       "text": "dr hab. inż. Piotrowski Zbigniew",
@@ -2775,7 +2982,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 16,
-      "cell_idx": 7
+      "cell_idx": 14
     }
   ],
   [
