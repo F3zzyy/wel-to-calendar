@@ -2499,7 +2499,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 10,
       "cell_idx": 2
@@ -2517,7 +2517,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 10,
       "cell_idx": 4
@@ -2526,7 +2526,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 10,
       "cell_idx": 5
@@ -2535,7 +2535,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 10,
       "cell_idx": 6
@@ -2553,7 +2553,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 10,
       "cell_idx": 8
@@ -2616,7 +2616,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 10,
       "cell_idx": 15
@@ -3025,7 +3025,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 5,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 12,
       "cell_idx": 2
@@ -3034,7 +3034,7 @@
       "text": "SSW",
       "colspan": 2,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 12,
       "cell_idx": 3
@@ -3043,7 +3043,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 12,
       "cell_idx": 4
@@ -3052,7 +3052,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 5,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 12,
       "cell_idx": 5
@@ -3070,7 +3070,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 5,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 12,
       "cell_idx": 7
@@ -3079,7 +3079,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 12,
       "cell_idx": 8
@@ -3097,7 +3097,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 12,
       "cell_idx": 10
@@ -3270,7 +3270,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 2,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 13,
       "cell_idx": 3
@@ -3497,7 +3497,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 3,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 14,
       "cell_idx": 3
@@ -3706,7 +3706,7 @@
       "text": "SSW",
       "colspan": 2,
       "rowspan": 2,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 15,
       "cell_idx": 2
@@ -3724,7 +3724,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 2,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 15,
       "cell_idx": 4
@@ -9779,9 +9779,9 @@
       "cell_idx": 11
     },
     {
-      "text": "",
+      "text": "REZ",
       "colspan": 1,
-      "rowspan": 1,
+      "rowspan": 3,
       "bgcolor": "",
       "style": "",
       "row_idx": 38,
@@ -10064,7 +10064,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 39,
       "cell_idx": 13
     },
@@ -10073,7 +10073,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 39,
       "cell_idx": 14
     },
@@ -10087,7 +10087,7 @@
       "cell_idx": 15
     },
     {
-      "text": "",
+      "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -10096,10 +10096,10 @@
       "cell_idx": 16
     },
     {
-      "text": "SSW",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 39,
       "cell_idx": 17
@@ -10109,7 +10109,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 39,
       "cell_idx": 18
     },
@@ -10118,7 +10118,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 39,
       "cell_idx": 19
     },
@@ -10145,7 +10145,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 39,
       "cell_idx": 22
     },
@@ -10154,7 +10154,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 39,
       "cell_idx": 23
     },
@@ -10180,19 +10180,10 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 39,
-      "cell_idx": 26
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
       "row_idx": 39,
-      "cell_idx": 27
+      "cell_idx": 26
     },
     {
       "text": "L 2",
@@ -10201,7 +10192,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 39,
-      "cell_idx": 28
+      "cell_idx": 27
     },
     {
       "text": "mgr inż. Żołnowski Wojciech",
@@ -10210,7 +10201,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 39,
-      "cell_idx": 29
+      "cell_idx": 28
     }
   ],
   [
@@ -10336,7 +10327,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 40,
       "cell_idx": 13
     },
@@ -10345,7 +10336,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 40,
       "cell_idx": 14
     },
@@ -10381,7 +10372,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 40,
       "cell_idx": 18
     },
@@ -10390,7 +10381,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 40,
       "cell_idx": 19
     },
@@ -10417,7 +10408,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 40,
       "cell_idx": 22
     },
@@ -10426,7 +10417,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 40,
       "cell_idx": 23
     },
@@ -10452,19 +10443,10 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 40,
-      "cell_idx": 26
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
       "row_idx": 40,
-      "cell_idx": 27
+      "cell_idx": 26
     },
     {
       "text": "Prad",
@@ -10473,7 +10455,7 @@
       "bgcolor": "#CFCFA0",
       "style": "",
       "row_idx": 40,
-      "cell_idx": 28
+      "cell_idx": 27
     },
     {
       "text": "Podstawy radiokomunikacji",
@@ -10482,7 +10464,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 40,
-      "cell_idx": 29
+      "cell_idx": 28
     }
   ],
   [
