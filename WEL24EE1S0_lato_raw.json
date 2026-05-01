@@ -1498,10 +1498,10 @@
       "cell_idx": 10
     },
     {
-      "text": "Npz\nS\n15 47",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E2BEE9",
+      "bgcolor": "",
       "style": "",
       "row_idx": 6,
       "cell_idx": 11
@@ -5027,10 +5027,10 @@
       "cell_idx": 7
     },
     {
-      "text": "",
+      "text": "Tmf\nL\n31 61A",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#E8FD9F",
       "style": "",
       "row_idx": 20,
       "cell_idx": 8
@@ -5254,10 +5254,10 @@
       "cell_idx": 7
     },
     {
-      "text": "",
+      "text": "50%\nTmf\nL\n31 61A",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#E8FD9F",
       "style": "",
       "row_idx": 21,
       "cell_idx": 8
@@ -5490,10 +5490,10 @@
       "cell_idx": 12
     },
     {
-      "text": "Tmf\nL\n31 61A",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E8FD9F",
+      "bgcolor": "",
       "style": "",
       "row_idx": 22,
       "cell_idx": 13
@@ -5510,7 +5510,7 @@
     {
       "text": "Npz\nS\n15 47",
       "colspan": 1,
-      "rowspan": 1,
+      "rowspan": 2,
       "bgcolor": "#E2BEE9",
       "style": "",
       "row_idx": 22,
@@ -5726,10 +5726,10 @@
       "cell_idx": 11
     },
     {
-      "text": "50%\nTmf\nL\n31 61A",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E8FD9F",
+      "bgcolor": "",
       "style": "",
       "row_idx": 23,
       "cell_idx": 12
@@ -5748,7 +5748,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 23,
       "cell_idx": 14
     },
@@ -5757,7 +5757,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 23,
       "cell_idx": 15
     },
@@ -5784,7 +5784,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 23,
       "cell_idx": 18
     },
@@ -5793,7 +5793,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 23,
       "cell_idx": 19
     },
@@ -5816,7 +5816,7 @@
       "cell_idx": 21
     },
     {
-      "text": "",
+      "text": "w 16",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -5825,22 +5825,13 @@
       "cell_idx": 22
     },
     {
-      "text": "w 16",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 23,
-      "cell_idx": 23
-    },
-    {
       "text": "dr hab. inż. Kaniewski Piotr",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 23,
-      "cell_idx": 24
+      "cell_idx": 23
     }
   ],
   [

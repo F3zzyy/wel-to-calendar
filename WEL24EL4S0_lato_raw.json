@@ -1507,10 +1507,10 @@
       "cell_idx": 11
     },
     {
-      "text": "Npz\nS\n15 47",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E2BEE9",
+      "bgcolor": "",
       "style": "",
       "row_idx": 6,
       "cell_idx": 12
@@ -3539,10 +3539,10 @@
       "cell_idx": 10
     },
     {
-      "text": "",
+      "text": "Tmf\nL\n31 61A",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#E8FD9F",
       "style": "",
       "row_idx": 14,
       "cell_idx": 11
@@ -3757,10 +3757,10 @@
       "cell_idx": 9
     },
     {
-      "text": "",
+      "text": "50%\nTmf\nL\n31 61A",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#E8FD9F",
       "style": "",
       "row_idx": 15,
       "cell_idx": 10
@@ -5018,10 +5018,10 @@
       "cell_idx": 8
     },
     {
-      "text": "Tmf\nL\n31 61A",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E8FD9F",
+      "bgcolor": "",
       "style": "",
       "row_idx": 20,
       "cell_idx": 9
@@ -5245,10 +5245,10 @@
       "cell_idx": 8
     },
     {
-      "text": "50%\nTmf\nL\n31 61A",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E8FD9F",
+      "bgcolor": "",
       "style": "",
       "row_idx": 21,
       "cell_idx": 9
@@ -5501,7 +5501,7 @@
     {
       "text": "Npz\nS\n15 47",
       "colspan": 1,
-      "rowspan": 1,
+      "rowspan": 2,
       "bgcolor": "#E2BEE9",
       "style": "",
       "row_idx": 22,
@@ -5766,7 +5766,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 23,
       "cell_idx": 16
     },
@@ -5775,7 +5775,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 23,
       "cell_idx": 17
     },
@@ -5802,7 +5802,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 23,
       "cell_idx": 20
     },
@@ -5811,7 +5811,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 23,
       "cell_idx": 21
     },
@@ -5834,7 +5834,7 @@
       "cell_idx": 23
     },
     {
-      "text": "",
+      "text": "ć 6",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
@@ -5843,22 +5843,13 @@
       "cell_idx": 24
     },
     {
-      "text": "ć 6",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 23,
-      "cell_idx": 25
-    },
-    {
       "text": "dr inż. Kraszewski Tomasz",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 23,
-      "cell_idx": 26
+      "cell_idx": 25
     }
   ],
   [
