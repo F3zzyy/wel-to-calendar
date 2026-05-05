@@ -2912,10 +2912,10 @@
       "cell_idx": 15
     },
     {
-      "text": "TA\nr\nBIBL /22",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#0ED883",
+      "bgcolor": "",
       "style": "",
       "row_idx": 11,
       "cell_idx": 16
@@ -3357,10 +3357,10 @@
       "cell_idx": 13
     },
     {
-      "text": "",
+      "text": "TA\nr\n22 /BIBL",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#0ED883",
       "style": "",
       "row_idx": 13,
       "cell_idx": 14
