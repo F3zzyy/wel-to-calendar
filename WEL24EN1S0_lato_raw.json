@@ -9273,9 +9273,9 @@
       "cell_idx": 9
     },
     {
-      "text": "",
+      "text": "REZ",
       "colspan": 1,
-      "rowspan": 1,
+      "rowspan": 4,
       "bgcolor": "",
       "style": "",
       "row_idx": 37,
@@ -9518,20 +9518,20 @@
       "cell_idx": 11
     },
     {
-      "text": "REZ",
-      "colspan": 1,
-      "rowspan": 3,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 38,
-      "cell_idx": 12
-    },
-    {
       "text": "Npz\nS\n15 47",
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "#E2BEE9",
       "style": "",
+      "row_idx": 38,
+      "cell_idx": 12
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 38,
       "cell_idx": 13
     },
@@ -9540,7 +9540,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 38,
       "cell_idx": 14
     },
@@ -9576,7 +9576,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 38,
       "cell_idx": 18
     },
@@ -9585,7 +9585,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 38,
       "cell_idx": 19
     },
@@ -9612,7 +9612,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 38,
       "cell_idx": 22
     },
@@ -9621,7 +9621,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 38,
       "cell_idx": 23
     },
@@ -9638,19 +9638,10 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 38,
-      "cell_idx": 25
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
       "row_idx": 38,
-      "cell_idx": 26
+      "cell_idx": 25
     },
     {
       "text": "Prad",
@@ -9659,7 +9650,7 @@
       "bgcolor": "#CFCFA0",
       "style": "",
       "row_idx": 38,
-      "cell_idx": 27
+      "cell_idx": 26
     },
     {
       "text": "Podstawy radiokomunikacji",
@@ -9668,7 +9659,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 38,
-      "cell_idx": 28
+      "cell_idx": 27
     }
   ],
   [

@@ -3312,10 +3312,10 @@
       "cell_idx": 7
     },
     {
-      "text": "Tmf\nćw zal\n315 S",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E8FD9F",
+      "bgcolor": "",
       "style": "",
       "row_idx": 13,
       "cell_idx": 8
@@ -3530,10 +3530,10 @@
       "cell_idx": 7
     },
     {
-      "text": "",
+      "text": "Tmf\nćw zal\n315 S",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#E8FD9F",
       "style": "",
       "row_idx": 14,
       "cell_idx": 8
@@ -9489,9 +9489,9 @@
       "cell_idx": 10
     },
     {
-      "text": "",
+      "text": "REZ",
       "colspan": 1,
-      "rowspan": 1,
+      "rowspan": 4,
       "bgcolor": "",
       "style": "",
       "row_idx": 37,
@@ -9761,9 +9761,9 @@
       "cell_idx": 11
     },
     {
-      "text": "REZ",
+      "text": "",
       "colspan": 1,
-      "rowspan": 3,
+      "rowspan": 1,
       "bgcolor": "",
       "style": "",
       "row_idx": 38,
@@ -9774,7 +9774,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 38,
       "cell_idx": 13
     },
@@ -9783,7 +9783,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 38,
       "cell_idx": 14
     },
@@ -9819,7 +9819,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 38,
       "cell_idx": 18
     },
@@ -9828,7 +9828,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 38,
       "cell_idx": 19
     },
@@ -9855,7 +9855,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 38,
       "cell_idx": 22
     },
@@ -9864,7 +9864,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 38,
       "cell_idx": 23
     },
@@ -9890,19 +9890,10 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 38,
-      "cell_idx": 26
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
       "row_idx": 38,
-      "cell_idx": 27
+      "cell_idx": 26
     },
     {
       "text": "w 4",
@@ -9911,7 +9902,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 38,
-      "cell_idx": 28
+      "cell_idx": 27
     },
     {
       "text": "dr inż. Skokowski Paweł",
@@ -9920,7 +9911,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 38,
-      "cell_idx": 29
+      "cell_idx": 28
     }
   ],
   [
