@@ -2816,7 +2816,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 11,
       "cell_idx": 3
@@ -2834,7 +2834,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 6,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 11,
       "cell_idx": 5
@@ -2852,7 +2852,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 3,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 11,
       "cell_idx": 7
@@ -2861,7 +2861,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 3,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 11,
       "cell_idx": 8
@@ -2870,7 +2870,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 11,
       "cell_idx": 9
@@ -2897,7 +2897,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 11,
       "cell_idx": 12
@@ -3052,7 +3052,7 @@
       "text": "SSW",
       "colspan": 2,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 12,
       "cell_idx": 3
@@ -3124,7 +3124,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 12,
       "cell_idx": 11
@@ -3261,7 +3261,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 4,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 13,
       "cell_idx": 2
@@ -3270,7 +3270,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 13,
       "cell_idx": 3
@@ -3479,7 +3479,7 @@
       "text": "SSW",
       "colspan": 2,
       "rowspan": 3,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 14,
       "cell_idx": 2
@@ -3715,7 +3715,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 2,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 15,
       "cell_idx": 3
@@ -3724,7 +3724,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 2,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 15,
       "cell_idx": 4
@@ -3733,7 +3733,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 2,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 15,
       "cell_idx": 5
@@ -5454,10 +5454,10 @@
       "cell_idx": 9
     },
     {
-      "text": "Npz\nS\n15 47",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E2BEE9",
+      "bgcolor": "",
       "style": "",
       "row_idx": 22,
       "cell_idx": 10
@@ -7367,10 +7367,10 @@
       "cell_idx": 12
     },
     {
-      "text": "",
+      "text": "Npz\nS\n315 S",
       "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
+      "rowspan": 3,
+      "bgcolor": "#E2BEE9",
       "style": "",
       "row_idx": 29,
       "cell_idx": 13
@@ -7612,10 +7612,10 @@
       "cell_idx": 13
     },
     {
-      "text": "Npz\nS\n15 47",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E2BEE9",
+      "bgcolor": "",
       "style": "border-right:solid 2.0pt",
       "row_idx": 30,
       "cell_idx": 14
@@ -7639,10 +7639,10 @@
       "cell_idx": 16
     },
     {
-      "text": "Npz\nS\n15 47",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E2BEE9",
+      "bgcolor": "",
       "style": "",
       "row_idx": 30,
       "cell_idx": 17
@@ -7652,7 +7652,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 30,
       "cell_idx": 18
     },
@@ -7661,7 +7661,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 30,
       "cell_idx": 19
     },
@@ -7688,7 +7688,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 30,
       "cell_idx": 22
     },
@@ -7697,7 +7697,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 30,
       "cell_idx": 23
     },
@@ -7723,19 +7723,10 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 30,
-      "cell_idx": 26
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
       "row_idx": 30,
-      "cell_idx": 27
+      "cell_idx": 26
     },
     {
       "text": "L 10",
@@ -7744,7 +7735,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 30,
-      "cell_idx": 28
+      "cell_idx": 27
     },
     {
       "text": "dr inż. Szabra Dariusz",
@@ -7753,7 +7744,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 30,
-      "cell_idx": 29
+      "cell_idx": 28
     }
   ],
   [
@@ -7906,7 +7897,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 31,
       "cell_idx": 16
     },
@@ -7915,7 +7906,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 31,
       "cell_idx": 17
     },
@@ -7942,7 +7933,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 31,
       "cell_idx": 20
     },
@@ -7951,7 +7942,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 31,
       "cell_idx": 21
     },
@@ -7977,19 +7968,10 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 31,
-      "cell_idx": 24
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
       "row_idx": 31,
-      "cell_idx": 25
+      "cell_idx": 24
     },
     {
       "text": "L 10",
@@ -7998,7 +7980,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 31,
-      "cell_idx": 26
+      "cell_idx": 25
     },
     {
       "text": "dr inż. Bareła Jarosław",
@@ -8007,7 +7989,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 31,
-      "cell_idx": 27
+      "cell_idx": 26
     }
   ],
   [
@@ -9492,7 +9474,7 @@
       "text": "REZ",
       "colspan": 1,
       "rowspan": 4,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 37,
       "cell_idx": 11

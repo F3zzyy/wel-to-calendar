@@ -1534,10 +1534,10 @@
       "cell_idx": 12
     },
     {
-      "text": "",
+      "text": "Sstk\nć\n3.3 75",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#FF80FF",
       "style": "",
       "row_idx": 6,
       "cell_idx": 13
@@ -2807,7 +2807,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 2,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 11,
       "cell_idx": 4
@@ -2816,7 +2816,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 2,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 11,
       "cell_idx": 5
@@ -2825,7 +2825,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 11,
       "cell_idx": 6
@@ -2843,7 +2843,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 2,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 11,
       "cell_idx": 8
@@ -2852,7 +2852,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 6,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 11,
       "cell_idx": 9
@@ -2879,7 +2879,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 11,
       "cell_idx": 12
@@ -3079,7 +3079,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 12,
       "cell_idx": 6
@@ -3252,7 +3252,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 4,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 13,
       "cell_idx": 2
@@ -3261,7 +3261,7 @@
       "text": "SSW",
       "colspan": 2,
       "rowspan": 4,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 13,
       "cell_idx": 3
@@ -3279,7 +3279,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 4,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 13,
       "cell_idx": 5
@@ -3479,7 +3479,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 3,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 14,
       "cell_idx": 2
@@ -3506,7 +3506,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 3,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 14,
       "cell_idx": 5
@@ -3524,7 +3524,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 14,
       "cell_idx": 7
@@ -3688,7 +3688,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 2,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 15,
       "cell_idx": 3
@@ -3733,7 +3733,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 15,
       "cell_idx": 8
@@ -6724,10 +6724,10 @@
       "cell_idx": 8
     },
     {
-      "text": "Sstk\nć\n3.3 75",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#FF80FF",
+      "bgcolor": "",
       "style": "",
       "row_idx": 27,
       "cell_idx": 9
@@ -9276,7 +9276,7 @@
       "text": "REZ",
       "colspan": 1,
       "rowspan": 4,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 37,
       "cell_idx": 10

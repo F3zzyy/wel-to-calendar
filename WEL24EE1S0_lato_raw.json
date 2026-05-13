@@ -2499,7 +2499,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 10,
       "cell_idx": 2
@@ -2526,7 +2526,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 10,
       "cell_idx": 5
@@ -2535,7 +2535,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 10,
       "cell_idx": 6
@@ -2553,7 +2553,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 10,
       "cell_idx": 8
@@ -2562,7 +2562,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 10,
       "cell_idx": 9
@@ -2571,7 +2571,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 10,
       "cell_idx": 10
@@ -2879,7 +2879,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 11,
       "cell_idx": 11
@@ -3025,7 +3025,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 12,
       "cell_idx": 2
@@ -3034,7 +3034,7 @@
       "text": "SSW",
       "colspan": 2,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 12,
       "cell_idx": 3
@@ -3043,7 +3043,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 12,
       "cell_idx": 4
@@ -3052,7 +3052,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 5,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 12,
       "cell_idx": 5
@@ -3070,7 +3070,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 5,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 12,
       "cell_idx": 7
@@ -3079,7 +3079,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 5,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 12,
       "cell_idx": 8
@@ -3088,7 +3088,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 12,
       "cell_idx": 9
@@ -3288,7 +3288,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 13,
       "cell_idx": 3
@@ -3506,7 +3506,7 @@
       "text": "SSW",
       "colspan": 2,
       "rowspan": 3,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 14,
       "cell_idx": 3
@@ -3515,7 +3515,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 3,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 14,
       "cell_idx": 4
@@ -3533,7 +3533,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 3,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 14,
       "cell_idx": 6
@@ -3724,7 +3724,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 2,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 15,
       "cell_idx": 2
@@ -3960,7 +3960,7 @@
       "text": "SSW",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "silver",
       "style": "border-right:solid 2.0pt",
       "row_idx": 16,
       "cell_idx": 6
@@ -5027,10 +5027,10 @@
       "cell_idx": 7
     },
     {
-      "text": "Tmf\nL\n31 61A",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E8FD9F",
+      "bgcolor": "",
       "style": "",
       "row_idx": 20,
       "cell_idx": 8
@@ -5254,10 +5254,10 @@
       "cell_idx": 7
     },
     {
-      "text": "50%\nTmf\nL\n31 61A",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#E8FD9F",
+      "bgcolor": "",
       "style": "",
       "row_idx": 21,
       "cell_idx": 8
@@ -9190,10 +9190,10 @@
       "cell_idx": 10
     },
     {
-      "text": "",
+      "text": "Tmf\nL\n31 61A",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#E8FD9F",
       "style": "",
       "row_idx": 36,
       "cell_idx": 11
@@ -9462,10 +9462,10 @@
       "cell_idx": 11
     },
     {
-      "text": "REZ",
+      "text": "50%\nTmf\nL\n31 61A",
       "colspan": 1,
-      "rowspan": 4,
-      "bgcolor": "",
+      "rowspan": 1,
+      "bgcolor": "#E8FD9F",
       "style": "",
       "row_idx": 37,
       "cell_idx": 12
@@ -9734,10 +9734,10 @@
       "cell_idx": 11
     },
     {
-      "text": "",
+      "text": "REZ",
       "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
+      "rowspan": 3,
+      "bgcolor": "silver",
       "style": "",
       "row_idx": 38,
       "cell_idx": 12
@@ -9747,7 +9747,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 38,
       "cell_idx": 13
     },
@@ -9756,7 +9756,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 38,
       "cell_idx": 14
     },
@@ -9792,7 +9792,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 38,
       "cell_idx": 18
     },
@@ -9801,7 +9801,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 38,
       "cell_idx": 19
     },
@@ -9828,7 +9828,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 38,
       "cell_idx": 22
     },
@@ -9837,7 +9837,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 38,
       "cell_idx": 23
     },
@@ -9863,10 +9863,19 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 38,
       "cell_idx": 26
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 38,
+      "cell_idx": 27
     },
     {
       "text": "w 12",
@@ -9875,7 +9884,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 38,
-      "cell_idx": 27
+      "cell_idx": 28
     },
     {
       "text": "dr inż. Przesmycki Rafał",
@@ -9884,7 +9893,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 38,
-      "cell_idx": 28
+      "cell_idx": 29
     }
   ],
   [
