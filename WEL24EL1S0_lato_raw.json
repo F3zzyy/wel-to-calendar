@@ -8709,10 +8709,10 @@
       "cell_idx": 15
     },
     {
-      "text": "",
+      "text": "XOis1\nć\n117 45",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#80FFFF",
       "style": "",
       "row_idx": 34,
       "cell_idx": 16
@@ -11139,13 +11139,22 @@
       "cell_idx": 14
     },
     {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "",
+      "style": "",
+      "row_idx": 43,
+      "cell_idx": 15
+    },
+    {
       "text": "XOis1\nć\n315b S",
-      "colspan": 2,
+      "colspan": 1,
       "rowspan": 2,
       "bgcolor": "#80FFFF",
       "style": "",
       "row_idx": 43,
-      "cell_idx": 15
+      "cell_idx": 16
     },
     {
       "text": "",
@@ -11154,7 +11163,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 43,
-      "cell_idx": 16
+      "cell_idx": 17
     },
     {
       "text": "XOis1\nZp.\n315 S",
@@ -11163,15 +11172,6 @@
       "bgcolor": "#80FFFF",
       "style": "",
       "row_idx": 43,
-      "cell_idx": 17
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
-      "row_idx": 43,
       "cell_idx": 18
     },
     {
@@ -11179,7 +11179,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 43,
       "cell_idx": 19
     },
@@ -11206,7 +11206,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 43,
       "cell_idx": 22
     },
@@ -11215,7 +11215,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 43,
       "cell_idx": 23
     },
@@ -11250,10 +11250,19 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 43,
       "cell_idx": 27
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 43,
+      "cell_idx": 28
     },
     {
       "text": "L 8",
@@ -11262,7 +11271,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 43,
-      "cell_idx": 28
+      "cell_idx": 29
     },
     {
       "text": "mgr inż. Piwowarczyk Kazimierz",
@@ -11271,7 +11280,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 43,
-      "cell_idx": 29
+      "cell_idx": 30
     }
   ],
   [
@@ -11411,10 +11420,10 @@
       "cell_idx": 14
     },
     {
-      "text": "XOis1\nć\n315a S",
+      "text": "",
       "colspan": 1,
-      "rowspan": 2,
-      "bgcolor": "#80FFFF",
+      "rowspan": 1,
+      "bgcolor": "",
       "style": "",
       "row_idx": 44,
       "cell_idx": 15
@@ -11433,7 +11442,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 44,
       "cell_idx": 17
     },
@@ -11442,7 +11451,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 44,
       "cell_idx": 18
     },
@@ -11469,7 +11478,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 44,
       "cell_idx": 21
     },
@@ -11478,7 +11487,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 44,
       "cell_idx": 22
     },
@@ -11513,10 +11522,19 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 44,
       "cell_idx": 26
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 44,
+      "cell_idx": 27
     },
     {
       "text": "PODS.SUR.",
@@ -11525,7 +11543,7 @@
       "bgcolor": "#FF8000",
       "style": "",
       "row_idx": 44,
-      "cell_idx": 27
+      "cell_idx": 28
     },
     {
       "text": "Podstawy survivalu",
@@ -11534,7 +11552,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 44,
-      "cell_idx": 28
+      "cell_idx": 29
     }
   ],
   [
@@ -11705,7 +11723,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 45,
       "cell_idx": 18
     },
@@ -11714,7 +11732,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 45,
       "cell_idx": 19
     },
@@ -11741,7 +11759,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 45,
       "cell_idx": 22
     },
@@ -11750,7 +11768,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 45,
       "cell_idx": 23
     },
@@ -11785,10 +11803,19 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "silver",
+      "bgcolor": "",
       "style": "",
       "row_idx": 45,
       "cell_idx": 27
+    },
+    {
+      "text": "",
+      "colspan": 1,
+      "rowspan": 1,
+      "bgcolor": "silver",
+      "style": "",
+      "row_idx": 45,
+      "cell_idx": 28
     },
     {
       "text": "ć 22",
@@ -11797,7 +11824,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 45,
-      "cell_idx": 28
+      "cell_idx": 29
     },
     {
       "text": "kmdr ppor. mgr inż. Kordus Wojciech",
@@ -11806,7 +11833,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 45,
-      "cell_idx": 29
+      "cell_idx": 30
     }
   ],
   [
@@ -13652,7 +13679,7 @@
     {
       "text": "XOis1\nć\n315b S",
       "colspan": 1,
-      "rowspan": 1,
+      "rowspan": 2,
       "bgcolor": "#80FFFF",
       "style": "border-right:solid 2.0pt",
       "row_idx": 52,
@@ -13668,10 +13695,10 @@
       "cell_idx": 13
     },
     {
-      "text": "",
+      "text": "XOis1\nć\n73b S",
       "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
+      "rowspan": 2,
+      "bgcolor": "#80FFFF",
       "style": "",
       "row_idx": 52,
       "cell_idx": 14
@@ -13926,7 +13953,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 53,
       "cell_idx": 13
     },
@@ -13953,7 +13980,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 53,
       "cell_idx": 16
     },
@@ -13971,7 +13998,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 53,
       "cell_idx": 18
     },
@@ -13989,7 +14016,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "",
+      "style": "border-right:solid 2.0pt",
       "row_idx": 53,
       "cell_idx": 20
     },
@@ -14007,7 +14034,7 @@
       "colspan": 1,
       "rowspan": 1,
       "bgcolor": "",
-      "style": "border-right:solid 2.0pt",
+      "style": "",
       "row_idx": 53,
       "cell_idx": 22
     },
@@ -14033,28 +14060,10 @@
       "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 53,
-      "cell_idx": 25
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
-      "bgcolor": "",
-      "style": "",
-      "row_idx": 53,
-      "cell_idx": 26
-    },
-    {
-      "text": "",
-      "colspan": 1,
-      "rowspan": 1,
       "bgcolor": "silver",
       "style": "",
       "row_idx": 53,
-      "cell_idx": 27
+      "cell_idx": 25
     },
     {
       "text": "ć 6",
@@ -14063,7 +14072,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 53,
-      "cell_idx": 28
+      "cell_idx": 26
     },
     {
       "text": "mgr inż. Grabiec Waldemar",
@@ -14072,7 +14081,7 @@
       "bgcolor": "",
       "style": "",
       "row_idx": 53,
-      "cell_idx": 29
+      "cell_idx": 27
     }
   ],
   [
