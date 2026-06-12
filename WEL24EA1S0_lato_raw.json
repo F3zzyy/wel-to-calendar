@@ -5544,10 +5544,10 @@
       "cell_idx": 15
     },
     {
-      "text": "",
+      "text": "50%\nSzS\nw\nAW 4",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#FF0000",
       "style": "",
       "row_idx": 22,
       "cell_idx": 16
@@ -12335,10 +12335,10 @@
       "cell_idx": 16
     },
     {
-      "text": "50%\nSzS\nw\nAW 1",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#FF0000",
+      "bgcolor": "",
       "style": "",
       "row_idx": 47,
       "cell_idx": 17
