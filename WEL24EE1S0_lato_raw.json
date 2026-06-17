@@ -1080,10 +1080,10 @@
       "cell_idx": 16
     },
     {
-      "text": "XOis1\nZp.\naE S",
+      "text": "",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "#80FFFF",
+      "bgcolor": "",
       "style": "",
       "row_idx": 4,
       "cell_idx": 17
@@ -11184,10 +11184,10 @@
       "cell_idx": 17
     },
     {
-      "text": "",
+      "text": "XOis1\nZp.\naE S",
       "colspan": 1,
       "rowspan": 1,
-      "bgcolor": "",
+      "bgcolor": "#80FFFF",
       "style": "",
       "row_idx": 43,
       "cell_idx": 18
