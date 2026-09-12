@@ -4,10 +4,28 @@ on:
   schedule:
     - cron: "0 6 * * *"
   workflow_dispatch:
+    inputs:
+      group:
+        description: "Grupa (np. WEL24EL2S0)"
+        required: false
+        default: "WEL24EL2S0"
+      semester:
+        description: "Semestr: zima lub lato"
+        required: false
+        default: "zima"
+
+env:
+  GROUP: ${{ github.event.inputs.group || 'WEL24EL2S0' }}
+  SEMESTER: ${{ github.event.inputs.semester || 'zima' }}
+
+concurrency:
+  group: update-ics
+  cancel-in-progress: false
 
 jobs:
   update-ics:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     permissions:
       contents: write
@@ -20,40 +38,33 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
 
       - name: Instalacja zależności
         run: pip install -r requirements.txt
 
       - name: Pobierz plan i ekstrakcja do JSON
-        run: |
-          python extract_schedule_data.py WEL24EL2S0
-          python extract_schedule_data.py WEL24EE1S0
-          python extract_schedule_data.py WEL24EN1S0
-          python extract_schedule_data.py WEL24EL1S0
-          python extract_schedule_data.py WEL24EA1S0
-          python extract_schedule_data.py WEL24EL4S0
+        run: python extract_schedule_data.py "$GROUP" "$SEMESTER"
 
-      - name: Generuj pliki ICS z JSON
-        run: |
-          python generate_ics_from_json.py WEL24EL2S0
-          python generate_ics_from_json.py WEL24EE1S0
-          python generate_ics_from_json.py WEL24EN1S0
-          python generate_ics_from_json.py WEL24EL1S0
-          python generate_ics_from_json.py WEL24EA1S0
-          python generate_ics_from_json.py WEL24EL4S0
+      - name: Generuj plik ICS z JSON
+        run: python generate_ics_from_json.py "$GROUP" "$SEMESTER"
 
       - name: Sprawdź zmiany w ICS
         id: check_changes
         run: |
-          git diff --quiet *.ics && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet -- '*.ics'; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Commit i push jeśli ICS się zmienił
         if: steps.check_changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add *.ics *_raw.json
-          git commit -m "auto: aktualizacja planów $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git add '*.ics' '*_raw.json'
+          git commit -m "auto: aktualizacja planu $GROUP $SEMESTER $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
 
       - name: Brak zmian w planie
