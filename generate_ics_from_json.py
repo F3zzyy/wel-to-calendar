@@ -15,6 +15,7 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 try:
     import openpyxl
@@ -329,8 +330,28 @@ VTIMEZONE = [
 ]
 
 
+def build_dtstamp(meta: dict) -> str:
+    """DTSTAMP = kiedy WAT zaktualizował plan, nie kiedy uruchomiono skrypt.
+
+    Gdyby brać `now()`, każdy przebieg dawałby inny plik ICS, więc workflow
+    commitowałby codziennie mimo braku zmian w planie.
+    """
+    raw = meta.get("source_updated")
+    if raw:
+        for fmt in ("%d.%m.%Y %H:%M:%S", "%d.%m.%Y %H:%M", "%d.%m.%Y"):
+            try:
+                local = datetime.strptime(raw, fmt)
+            except ValueError:
+                continue
+            return (local.replace(tzinfo=ZoneInfo(TIMEZONE_ID))
+                         .astimezone(timezone.utc)
+                         .strftime("%Y%m%dT%H%M%SZ"))
+        print(f"  ostrzeżenie: nie sparsowałem daty aktualizacji {raw!r}")
+    return datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+
 def build_ics(events: list[dict], meta: dict) -> str:
-    now = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    now = build_dtstamp(meta)
 
     sem_label = {"zima": "Zima", "lato": "Lato"}.get(meta.get("semester", ""), "")
     year_label = ""
