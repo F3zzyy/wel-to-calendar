@@ -3,11 +3,11 @@
     "group": "WEL24EL2S0",
     "semester": "zima",
     "url": "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm",
-    "fetched_at": "2026-09-23T10:54:46Z",
+    "fetched_at": "2026-09-26T10:56:01Z",
     "academic_year_start": 2026,
     "academic_year_end": 2027,
     "semester_label": "zimowy",
-    "source_updated": "23.09.2026 08:20:11"
+    "source_updated": "25.09.2026 13:16:47"
   },
   "rows": [
     [
@@ -2266,11 +2266,11 @@
         "cell_idx": 1
       },
       {
-        "text": "Teo\nw\n0.09 42",
-        "colspan": 2,
+        "text": "",
+        "colspan": 1,
         "rowspan": 1,
-        "bgcolor": "#EDCCB1",
-        "style": "",
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
         "row_idx": 11,
         "cell_idx": 2
       },
@@ -2284,7 +2284,7 @@
         "cell_idx": 3
       },
       {
-        "text": "Teo\nw\n30 61A",
+        "text": "Teo\nw\n0.09 42",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "#EDCCB1",
@@ -2293,8 +2293,8 @@
         "cell_idx": 4
       },
       {
-        "text": "Teo\nw\n0.09 42",
-        "colspan": 2,
+        "text": "Teo\nw\n30 61A",
+        "colspan": 1,
         "rowspan": 1,
         "bgcolor": "#EDCCB1",
         "style": "",
@@ -2303,7 +2303,7 @@
       },
       {
         "text": "Teo\nw\n0.09 42",
-        "colspan": 1,
+        "colspan": 2,
         "rowspan": 1,
         "bgcolor": "#EDCCB1",
         "style": "",
@@ -2311,11 +2311,11 @@
         "cell_idx": 6
       },
       {
-        "text": "",
+        "text": "Teo\nw\n0.09 42",
         "colspan": 1,
         "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "bgcolor": "#EDCCB1",
+        "style": "",
         "row_idx": 11,
         "cell_idx": 7
       },
@@ -2324,7 +2324,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 11,
         "cell_idx": 8
       },
@@ -2333,18 +2333,9 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 11,
         "cell_idx": 9
-      },
-      {
-        "text": "WF\nć",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "#787878",
-        "style": "",
-        "row_idx": 11,
-        "cell_idx": 10
       },
       {
         "text": "",
@@ -2352,6 +2343,15 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px",
+        "row_idx": 11,
+        "cell_idx": 10
+      },
+      {
+        "text": "WF\nć",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "#787878",
+        "style": "",
         "row_idx": 11,
         "cell_idx": 11
       },
@@ -2383,13 +2383,22 @@
         "cell_idx": 14
       },
       {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
+        "row_idx": 11,
+        "cell_idx": 15
+      },
+      {
         "text": "DSiSM",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:#B7CA4A",
         "row_idx": 11,
-        "cell_idx": 15
+        "cell_idx": 16
       },
       {
         "text": "Działalność szkoleniowa i szkoleniowo-metodyczna",
@@ -2398,7 +2407,7 @@
         "bgcolor": "",
         "style": "",
         "row_idx": 11,
-        "cell_idx": 16
+        "cell_idx": 17
       }
     ],
     [
@@ -4484,11 +4493,11 @@
         "cell_idx": 4
       },
       {
-        "text": "",
+        "text": "Teo\nw\n0.09 42",
         "colspan": 1,
         "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "bgcolor": "#EDCCB1",
+        "style": "",
         "row_idx": 22,
         "cell_idx": 5
       },
