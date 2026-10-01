@@ -29,6 +29,12 @@ jobs:
 
     permissions:
       contents: write
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repozytorium
@@ -70,3 +76,22 @@ jobs:
       - name: Brak zmian w planie
         if: steps.check_changes.outputs.changed == 'false'
         run: echo "Plan zajęć nie zmienił się – brak commitu."
+
+      # ---------- GitHub Pages (subskrypcja webcal dla iOS) ----------
+
+      - name: Przygotuj pliki do Pages
+        run: |
+          mkdir -p _site
+          cp *.ics _site/
+
+      - name: Konfiguracja Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artefaktu Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy na GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
