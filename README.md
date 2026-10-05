@@ -1,125 +1,79 @@
-# WAT WEL Plan zajęć → Google Calendar
+# WAT WEL plan zajęć → kalendarz
 
-Automatyczne generowanie pliku ICS z rozkładu zajęć WAT WEL dla grupy
-**WEL24EL2S0**, aktualizowanego codziennie przez GitHub Actions.
+Codziennie (06:00 UTC) GitHub Actions pobiera plan grupy **WEL24EL2S0**
+(zimowy i letni), dokleja szczegóły WF i publikuje jeden plik kalendarza.
+Zima/lato przełącza się samo — link do subskrypcji się nie zmienia.
 
-Aktualny semestr: **zimowy 2026/2027**.
+## Linki do subskrypcji
 
-## Jak to działa
+| Gdzie | Link |
+|---|---|
+| Google Calendar (*Inne kalendarze → Z adresu URL*) | `https://raw.githubusercontent.com/F3zzyy/wel-to-calendar/main/WEL24EL2S0.ics` |
+| iPhone (*Ustawienia → Kalendarz → Konta → Dodaj subskrypcję*) | `webcal://f3zzyy.github.io/wel-to-calendar/WEL24EL2S0.ics` |
+
+`WEL24EL2S0_zima.ics` to identyczna kopia pod starą nazwą — dotychczasowe
+subskrypcje działają dalej, nie trzeba ich ruszać.
+
+## Co robię, gdy…
+
+**…dostanę plan WF**
+Wchodzę w `WF/<rok>_<semestr>/` (np. `WF/2026-2027_zima/`) →
+*Add file → Upload files* → wrzucam `.xlsx` → *Commit changes*. Koniec.
+Szczegóły: [WF/README.md](WF/README.md).
+
+**…zacznie się nowy semestr**
+Nic. Gdy WAT opublikuje plan, trafi do kalendarza sam, a w `WF/` pojawi się
+folder na nowy plan WF.
+
+**…WAT zmieni adres planu**
+Otwieram `USTAWIENIA.toml` (na GitHubie: ikonka ołówka), wklejam nowy link
+w cudzysłowie, *Commit changes*. Do tego czasu kalendarz pokazuje ostatnią
+dobrą wersję planu — nic nie znika.
+
+**…chcę sprawdzić, czy wszystko działa**
+*Actions* → ostatni przebieg → podsumowanie na dole: ile zajęć, czy WF się
+dopasował i ewentualne ostrzeżenia (⚠️) z instrukcją, co poprawić.
+Jeśli przebieg jest czerwony, GitHub wyśle maila, a kalendarz zostaje
+w ostatniej dobrej wersji.
+
+**…chcę wymusić odświeżenie**
+*Actions → Aktualizuj plan zajęć → Run workflow*.
+
+## Pliki
 
 ```
-https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm
-          ↓
-extract_schedule_data.py
-          ↓
-WEL24EL2S0_zima_raw.json   ← źródło prawdy do debugowania (meta + surowa tabela)
-          ↓
-generate_ics_from_json.py  +  WEL24EL2S0_zima_wf.xlsx (opcjonalnie)
-          ↓
-WEL24EL2S0_zima.ics
-          ↓
-GitHub raw URL → subskrypcja Google Calendar
+USTAWIENIA.toml          ← jedyny plik do edycji ręcznej (grupa, linki do planów)
+WF/<rok>_<semestr>/      ← tu wrzucasz plany WF (.xlsx)
+aktualizuj.py            ← jedyny skrypt do uruchamiania
+extract_schedule_data.py ← pobieranie i parsowanie strony WAT
+generate_ics_from_json.py← budowa eventów i pliku ICS
+dane/zima.json, lato.json← ostatnie dobre plany (generowane, zapas na awarię WAT)
+WEL24EL2S0.ics           ← kalendarz (generowany)
 ```
 
-## Użycie lokalne
+## Uruchomienie lokalne
 
 ```bash
+python3 -m venv ~/.venvs/wel && source ~/.venvs/wel/bin/activate
 pip install -r requirements.txt
-
-# Etap 1: pobierz plan do JSON
-python extract_schedule_data.py WEL24EL2S0 zima
-
-# Etap 2: wygeneruj ICS
-python generate_ics_from_json.py WEL24EL2S0 zima
+python aktualizuj.py             # pobiera z WAT
+python aktualizuj.py --offline   # bez sieci, z dane/
 ```
 
-Oba skrypty domyślnie przyjmują `WEL24EL2S0 zima`, więc można je uruchomić
-bez argumentów. Do debugowania parsera bez sieci:
+## Jak to działa (dla przyszłych zmian)
 
-```bash
-python extract_schedule_data.py WEL24EL2S0 zima --from-file zapisana_strona.htm
-```
-
-## Zmiana semestru
-
-Semestr jest argumentem, nie stałą w kodzie. Po zakończeniu zimowego:
-
-1. W `.github/workflows/update-ics.yml` zmień `SEMESTER` na `lato`.
-2. Uruchom workflow ręcznie (Actions → Run workflow) albo poczekaj na cron.
-3. Zaktualizuj URL subskrypcji w Google Calendar na `..._lato.ics`.
-
-Rok kalendarzowy **nie jest** nigdzie wpisany na sztywno — skrypt czyta
-`ROK AKADEMICKI 2026/2027` z nagłówka strony i sam rozstrzyga przełom roku
-(październik–grudzień → 2026, styczeń–luty → 2027).
-
-## Subskrypcja w Google Calendar
-
-1. Google Calendar → Inne kalendarze → **Dodaj z adresu URL**
-2. Wklej:
-   ```
-   https://raw.githubusercontent.com/F3zzyy/wel-to-calendar/main/WEL24EL2S0_zima.ics
-   ```
-3. Kliknij **Dodaj kalendarz**
-
-Google odświeża subskrybowane kalendarze automatycznie (zwykle co kilka godzin,
-czasem rzadziej — to ograniczenie Google, nie tego repo).
-
-## Opcjonalny plik WF
-
-Umieść `WEL24EL2S0_zima_wf.xlsx` (albo `WEL24EL2S0_wf.xlsx`) w katalogu projektu:
-
-- **kolumna A**: data (format daty Excel)
-- **kolumna C**: opis zajęć WF wraz z salą
-
-Opisy trafiają do pola LOCATION i DESCRIPTION eventów z „WF" w nazwie.
-
-## Automatyzacja (GitHub Actions)
-
-Workflow `.github/workflows/update-ics.yml`:
-
-- **codziennie o 06:00 UTC** (08:00 czasu polskiego)
-- **ręcznie** przez Actions → Run workflow (można podać inną grupę/semestr)
-
-Commit powstaje tylko wtedy, gdy zmienił się plik `.ics` — samo odpytanie
-serwera nie generuje szumu w historii.
-
-## Struktura projektu
-
-```
-.
-├── extract_schedule_data.py        # Etap 1: HTML → JSON
-├── generate_ics_from_json.py       # Etap 2: JSON → ICS
-├── requirements.txt
-├── WEL24EL2S0_zima_wf.xlsx         # (opcjonalnie) szczegóły WF
-├── WEL24EL2S0_zima_raw.json        # (generowany) meta + surowa tabela
-├── WEL24EL2S0_zima.ics             # (generowany) plik kalendarza
-└── .github/
-    └── workflows/
-        └── update-ics.yml          # Automatyzacja
-```
-
-## Konfiguracja
-
-W `generate_ics_from_json.py`:
-
-| Zmienna | Opis |
-|---------|------|
-| `TIME_MAP` | Mapa slotów godzinowych na godziny — sprawdź z [siatką godzinową WEL](https://www.wel.wat.edu.pl/przydatne-informacje/siatka-godzinowa-zajec/) |
-| `SKIP_KEYWORDS` | Komórki pomijane w całości (domyślnie `SSW`) |
-| `SKIP_PREFIX_X` | Pomija przedmioty powtarzane (`XWF`, `XFiz1`, …) |
-| `TYPE_NAMES` | Rozwinięcia skrótów typu zajęć (w → wykład itd.) |
-| `TIMEZONE_ID` | Strefa czasowa eventów (`Europe/Warsaw`) |
-
-Eventy mają jawny `TZID=Europe/Warsaw` i blok `VTIMEZONE`, więc zmiana czasu
-pod koniec października nie przesuwa zajęć.
-
-## Uwagi o danych źródłowych
-
-- Kolumny lutego bywają puste do czasu ogłoszenia sesji — wtedy ICS po prostu
-  kończy się na styczniu i uzupełni się sam przy kolejnym przebiegu.
-- Strona podaje `Data aktualizacji` — trafia ona do `X-WR-CALDESC` w ICS.
-- Stary host `plany.wel.wat.edu.pl` już nie działa (brak wpisu DNS).
-
-## Walidacja ICS
-
-https://icalendar.org/validator.html
+- Oba plany są pobierane przy każdym przebiegu. Do kalendarza trafiają tylko
+  plany z **najnowszego roku akademickiego** (rok czytany z nagłówka strony),
+  więc stary plan wiszący na stronie WAT nie wraca.
+- Plan, którego nie da się pobrać albo który wygląda źle (brak tabeli, zły
+  semestr pod linkiem), jest zastępowany ostatnią dobrą wersją z `dane/`.
+  Plan letni przed publikacją (404) jest po prostu pomijany.
+- 0 zajęć = błąd i brak zapisu, więc pusty kalendarz nigdy nie zostanie opublikowany.
+- WF: z folderu semestru brany jest najnowszy `.xlsx` (wg daty commita).
+  Rok w datach pliku jest ignorowany i liczony z roku akademickiego. Szczegóły
+  trafiają do pierwszego „WF” danego dnia (późniejszy to wykład).
+- UID eventów zależą od daty, slotu i treści komórki planu — zmiana WF nie
+  tworzy duplikatów w kalendarzach.
+- Godziny slotów: `TIME_MAP` w `generate_ics_from_json.py`
+  ([siatka godzinowa WEL](https://www.wel.wat.edu.pl/przydatne-informacje/siatka-godzinowa-zajec/)).
+  Commit powstaje tylko, gdy zmieni się kalendarz.

@@ -1,22 +1,21 @@
-name: Aktualizuj plan zajęć ICS
+name: Aktualizuj plan zajęć
 
+# Kiedy się uruchamia:
+#  - codziennie o 06:00 UTC (08:00 w Polsce latem, 07:00 zimą),
+#  - sam, gdy zmienisz USTAWIENIA.toml, wrzucisz plik do WF/ albo zmienisz skrypty,
+#  - ręcznie: Actions → „Aktualizuj plan zajęć” → Run workflow.
 on:
   schedule:
     - cron: "0 6 * * *"
   workflow_dispatch:
-    inputs:
-      group:
-        description: "Grupa (np. WEL24EL2S0)"
-        required: false
-        default: "WEL24EL2S0"
-      semester:
-        description: "Semestr: zima lub lato"
-        required: false
-        default: "zima"
-
-env:
-  GROUP: ${{ github.event.inputs.group || 'WEL24EL2S0' }}
-  SEMESTER: ${{ github.event.inputs.semester || 'zima' }}
+  push:
+    branches: [main]
+    paths:
+      - "USTAWIENIA.toml"
+      - "WF/**"
+      - "*.py"
+      - "requirements.txt"
+      - ".github/workflows/update-ics.yml"
 
 concurrency:
   group: update-ics
@@ -39,43 +38,34 @@ jobs:
     steps:
       - name: Checkout repozytorium
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # pełna historia: po niej poznajemy najnowszy plik WF
 
       - name: Konfiguracja Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
           cache: pip
 
       - name: Instalacja zależności
         run: pip install -r requirements.txt
 
-      - name: Pobierz plan i ekstrakcja do JSON
-        run: python extract_schedule_data.py "$GROUP" "$SEMESTER"
+      # Jeśli tu coś padnie, kalendarz zostaje w ostatniej dobrej wersji.
+      - name: Pobierz plany i zbuduj kalendarz
+        run: python aktualizuj.py
 
-      - name: Generuj plik ICS z JSON
-        run: python generate_ics_from_json.py "$GROUP" "$SEMESTER"
-
-      - name: Sprawdź zmiany w ICS
-        id: check_changes
+      - name: Commit, jeśli kalendarz albo foldery WF się zmieniły
         run: |
-          if git diff --quiet -- '*.ics'; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+          if [ -z "$(git status --porcelain -- '*.ics' WF)" ]; then
+            echo "Brak zmian w kalendarzu – bez commitu."
+            exit 0
           fi
-
-      - name: Commit i push jeśli ICS się zmienił
-        if: steps.check_changes.outputs.changed == 'true'
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add '*.ics' '*_raw.json'
-          git commit -m "auto: aktualizacja planu $GROUP $SEMESTER $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git add -A -- '*.ics' WF dane
+          git commit -m "auto: aktualizacja planu $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase
           git push
-
-      - name: Brak zmian w planie
-        if: steps.check_changes.outputs.changed == 'false'
-        run: echo "Plan zajęć nie zmienił się – brak commitu."
 
       # ---------- GitHub Pages (subskrypcja webcal dla iOS) ----------
 

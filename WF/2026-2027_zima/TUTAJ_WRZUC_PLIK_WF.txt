@@ -1,0 +1,3 @@
+Wrzuć tutaj plan WF na semestr zimowy 2026/2027 (plik .xlsx).
+Nazwa pliku jest dowolna. Gdy dostaniesz poprawioną wersję, po prostu wrzuć ją
+obok — używany jest zawsze najnowszy plik, starszy możesz usunąć.

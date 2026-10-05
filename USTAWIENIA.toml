@@ -1,0 +1,19 @@
+# =====================================================================
+#  USTAWIENIA — jedyny plik, który edytujesz ręcznie.
+#  Po zapisaniu zmian (commit) kalendarz przebuduje się sam w ~2 minuty.
+#  Tekst zawsze w "cudzysłowach". Linie z # to komentarze.
+# =====================================================================
+
+# Twoja grupa. Od niej zależy nazwa pliku kalendarza (WEL24EL2S0.ics),
+# więc zmiana grupy = nowy link do subskrypcji.
+grupa = "WEL24EL2S0"
+
+# Linki do planów. Wklej dokładnie to, co otwierasz w przeglądarce.
+# Oba plany są pobierane przy każdym przebiegu i łączone w jeden kalendarz,
+# więc między zimą a latem NICZEGO nie przełączasz.
+#
+# Gdy WAT zmieni adres: podmień link w cudzysłowie i zapisz.
+# Pusty link ("") = ten semestr jest pomijany.
+[plany]
+zima = "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm"
+lato = "https://wel.wat.edu.pl/planyzajec/lato/WEL24EL2S0.htm"

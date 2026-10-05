@@ -1,17 +1,11 @@
 #!/usr/bin/env python3
 """
-Etap 1: HTML -> JSON
+Etap 1: HTML planu WAT -> surowe dane tabeli + metadane.
 
-Pobiera stronę z rozkładem zajęć WAT WEL i zapisuje surowe dane tabeli
-razem z metadanymi (rok akademicki, semestr, data aktualizacji) do JSON.
-
-Użycie:
-    python extract_schedule_data.py [GRUPA] [SEMESTR]
-    python extract_schedule_data.py WEL24EL2S0 zima
-    python extract_schedule_data.py WEL24EL2S0 zima --from-file strona.htm
+Nie uruchamiaj tego pliku bezpośrednio — używa go aktualizuj.py.
+Adresy planów są w USTAWIENIA.toml.
 """
 
-import argparse
 import json
 import re
 from datetime import datetime, timezone
@@ -21,13 +15,6 @@ import urllib3
 from bs4 import BeautifulSoup
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-# Od roku akademickiego 2026/2027 plany są na wel.wat.edu.pl.
-# Stary host plany.wel.wat.edu.pl nie rozwiązuje się już w DNS.
-BASE_URL = "https://wel.wat.edu.pl/planyzajec/{semester}/{group}.htm"
-
-DEFAULT_GROUP = "WEL24EL2S0"
-DEFAULT_SEMESTER = "zima"
 
 # Serwer WEL odrzuca żądania bez przeglądarkowego User-Agenta (403).
 HEADERS = {
@@ -119,54 +106,12 @@ def extract_table_data(soup: BeautifulSoup) -> list[list[dict]]:
     return rows_data
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="WAT WEL: HTML rozkładu -> JSON")
-    parser.add_argument("group", nargs="?", default=DEFAULT_GROUP)
-    parser.add_argument("semester", nargs="?", default=DEFAULT_SEMESTER,
-                        choices=["zima", "lato"])
-    parser.add_argument("--from-file", dest="from_file",
-                        help="użyj lokalnego pliku HTML zamiast pobierania")
-    args = parser.parse_args()
-
-    url = BASE_URL.format(semester=args.semester, group=args.group)
-
-    if args.from_file:
-        print(f"Wczytywanie lokalnego pliku: {args.from_file}")
-        with open(args.from_file, "rb") as f:
-            html = decode_html(f.read())
-    else:
-        html = fetch_html(url)
-
-    soup = BeautifulSoup(html, "html.parser")
-
+def pobierz_plan(url: str) -> dict:
+    """Pobiera stronę planu i zwraca {"meta": {...}, "rows": [...]}."""
+    soup = BeautifulSoup(fetch_html(url), "html.parser")
     meta = {
-        "group": args.group,
-        "semester": args.semester,
         "url": url,
         "fetched_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
     meta.update(parse_header(soup))
-
-    rows = extract_table_data(soup)
-
-    output_file = f"{args.group}_{args.semester}_raw.json"
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump({"meta": meta, "rows": rows}, f, ensure_ascii=False, indent=2)
-
-    print(f"Zapisano dane do: {output_file}")
-    print(f"  rok akademicki: {meta.get('academic_year_start', '?')}"
-          f"/{meta.get('academic_year_end', '?')}")
-    print(f"  semestr: {meta.get('semester_label', args.semester)}")
-    print(f"  aktualizacja planu: {meta.get('source_updated', 'brak')}")
-
-    print("\n--- Podgląd pierwszych 3 wierszy ---")
-    for i, row in enumerate(rows[:3]):
-        print(f"Wiersz {i}: {len(row)} komórek")
-        for cell in row[:4]:
-            preview = cell["text"][:50].replace("\n", " ")
-            print(f"  [{cell['cell_idx']}] cs={cell['colspan']} "
-                  f"rs={cell['rowspan']} | {preview!r}")
-
-
-if __name__ == "__main__":
-    main()
+    return {"meta": meta, "rows": extract_table_data(soup)}

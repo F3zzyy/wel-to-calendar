@@ -1,15 +1,10 @@
 #!/usr/bin/env python3
 """
-Etap 2: JSON -> ICS
+Etap 2: surowe dane tabeli -> eventy -> plik ICS (RFC 5545).
 
-Wczytuje surowe dane tabeli z JSON i generuje plik ICS zgodny z RFC 5545.
-
-Użycie:
-    python generate_ics_from_json.py [GRUPA] [SEMESTR]
-    python generate_ics_from_json.py WEL24EL2S0 zima
+Nie uruchamiaj tego pliku bezpośrednio — używa go aktualizuj.py.
 """
 
-import argparse
 import hashlib
 import json
 import re
@@ -22,9 +17,6 @@ try:
     HAS_OPENPYXL = True
 except ImportError:
     HAS_OPENPYXL = False
-
-DEFAULT_GROUP = "WEL24EL2S0"
-DEFAULT_SEMESTER = "zima"
 
 TIMEZONE_ID = "Europe/Warsaw"
 
@@ -239,19 +231,39 @@ def parse_event_details(text: str) -> dict:
     }
 
 
-def load_wf_details(xlsx_path: str) -> dict:
+def load_wf_details(xlsx_path: str, year_start: int) -> dict:
+    """Wczytuje plan WF plutonu: data -> {code, place, topic, teacher}.
+
+    Arkusz ma bloki: wiersz nagłówka (B = dzień tygodnia, C = prowadzący),
+    potem wiersze A = data, B = kod zajęć, C = "miejsce - temat".
+    Komórki dat mają format d-mmm, więc rok w pliku jest przypadkowy
+    (styczeń wychodzi jako 2026) — liczymy go z roku akademickiego.
+    """
     if not HAS_OPENPYXL or not Path(xlsx_path).exists():
         return {}
 
-    wb = openpyxl.load_workbook(xlsx_path)
-    ws = wb.active
-    details = {}
-    for row in ws.iter_rows(min_row=2, values_only=True):
-        date_val = row[0]
-        opis = row[2] if len(row) > 2 else None
-        if date_val and opis:
-            key = date_val.date() if isinstance(date_val, datetime) else str(date_val)
-            details[key] = str(opis)
+    ws = openpyxl.load_workbook(xlsx_path, read_only=True).active
+    details: dict = {}
+    teacher = ""
+    for row in ws.iter_rows(values_only=True):
+        a, b, c = (list(row) + [None, None, None])[:3]
+        if a is None:
+            if b and c:  # nagłówek bloku
+                teacher = str(c).strip()
+            continue
+        if not isinstance(a, datetime) or not c:
+            continue
+        date = datetime(year_for_month(a.month, year_start), a.month, a.day).date()
+        opis = str(c).strip().rstrip(".")
+        place, sep, topic = opis.partition(" - ")
+        if not sep:
+            place, topic = "", opis
+        details[date] = {
+            "code": str(b or "").strip(),
+            "place": place.strip(),
+            "topic": topic.strip(),
+            "teacher": teacher,
+        }
     print(f"Wczytano {len(details)} wpisów WF z {xlsx_path}")
     return details
 
@@ -350,19 +362,7 @@ def build_dtstamp(meta: dict) -> str:
     return datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
 
-def build_ics(events: list[dict], meta: dict) -> str:
-    now = build_dtstamp(meta)
-
-    sem_label = {"zima": "Zima", "lato": "Lato"}.get(meta.get("semester", ""), "")
-    year_label = ""
-    if meta.get("academic_year_start"):
-        year_label = f" {meta['academic_year_start']}/{meta['academic_year_end']}"
-    cal_name = f"WAT {meta.get('group', '')} {sem_label}{year_label}".strip()
-
-    desc_bits = [f"Źródło: {meta.get('url', '')}"]
-    if meta.get("source_updated"):
-        desc_bits.append(f"Aktualizacja planu: {meta['source_updated']}")
-
+def build_ics(events: list[dict], cal_name: str, cal_desc: str, dtstamp: str) -> str:
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
@@ -370,7 +370,7 @@ def build_ics(events: list[dict], meta: dict) -> str:
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         fold_line(f"X-WR-CALNAME:{cal_name}"),
-        fold_line(f"X-WR-CALDESC:{escape_ics(' | '.join(desc_bits))}"),
+        fold_line(f"X-WR-CALDESC:{escape_ics(cal_desc)}"),
         f"X-WR-TIMEZONE:{TIMEZONE_ID}",
         *VTIMEZONE,
     ]
@@ -379,7 +379,7 @@ def build_ics(events: list[dict], meta: dict) -> str:
         lines += [
             "BEGIN:VEVENT",
             fold_line(f"UID:{ev['uid']}"),
-            f"DTSTAMP:{now}",
+            f"DTSTAMP:{dtstamp}",
             f"DTSTART;TZID={TIMEZONE_ID}:{ev['dtstart']}",
             f"DTEND;TZID={TIMEZONE_ID}:{ev['dtend']}",
             fold_line(f"SUMMARY:{escape_ics(ev['summary'])}"),
@@ -400,6 +400,7 @@ def process_schedule(grid: dict, wf_details: dict, year_start: int,
                      legend: dict) -> list[dict]:
     events: list[dict] = []
     processed_cells = set()
+    wf_used: set = set()
 
     all_date_rows = find_all_date_rows(grid, year_start)
     if not all_date_rows:
@@ -479,10 +480,18 @@ def process_schedule(grid: dict, wf_details: dict, year_start: int,
                     desc_parts.append(f"Grupa: {details['share']}")
 
                 wf_location = ""
-                if "WF" in summary.upper() and wf_details:
-                    wf_location = wf_details.get(base_date.date(), "")
-                    if wf_location:
-                        desc_parts.append(f"WF: {wf_location}")
+                wf = None
+                if summary.upper() == "WF" and base_date.date() not in wf_used:
+                    wf = wf_details.get(base_date.date())
+                if wf:
+                    # Pierwszy (najwcześniejszy) WF danego dnia = zajęcia plutonu.
+                    wf_used.add(base_date.date())
+                    wf_location = wf["place"]
+                    desc_parts.append(wf["topic"])
+                    if wf["code"]:
+                        desc_parts.append(f"Zajęcia: {wf['code']}")
+                    if wf["teacher"] and not details["teacher"]:
+                        desc_parts.append(f"Prowadzący: {wf['teacher']}")
 
                 events.append({
                     "uid": make_uid(base_date, slot, col_idx, text),
@@ -494,58 +503,3 @@ def process_schedule(grid: dict, wf_details: dict, year_start: int,
                 })
 
     return events
-
-
-def main() -> None:
-    parser = argparse.ArgumentParser(description="WAT WEL: JSON rozkładu -> ICS")
-    parser.add_argument("group", nargs="?", default=DEFAULT_GROUP)
-    parser.add_argument("semester", nargs="?", default=DEFAULT_SEMESTER,
-                        choices=["zima", "lato"])
-    args = parser.parse_args()
-
-    input_json = f"{args.group}_{args.semester}_raw.json"
-    output_ics = f"{args.group}_{args.semester}.ics"
-
-    print(f"Wczytywanie: {input_json}")
-    with open(input_json, encoding="utf-8") as f:
-        data = json.load(f)
-
-    meta = data.get("meta", {})
-    rows = data.get("rows", [])
-    meta.setdefault("group", args.group)
-    meta.setdefault("semester", args.semester)
-
-    year_start = meta.get("academic_year_start")
-    if not year_start:
-        year_start = default_academic_year_start()
-        print(f"  brak roku w metadanych — przyjmuję {year_start}/{year_start + 1}")
-    print(f"Rok akademicki: {year_start}/{year_start + 1}")
-
-    grid = build_grid(rows)
-    print(f"Zbudowano grid: {len(grid)} wierszy")
-
-    date_cols: set[int] = set()
-    for _, cols in find_all_date_rows(grid, year_start):
-        date_cols.update(cols)
-    legend = build_subject_legend(grid, date_cols)
-    print(f"Legenda przedmiotów: {len(legend)} pozycji")
-
-    wf_candidates = [f"{args.group}_{args.semester}_wf.xlsx", f"{args.group}_wf.xlsx"]
-    wf_path = next((p for p in wf_candidates if Path(p).exists()), "")
-    wf_details = load_wf_details(wf_path) if wf_path else {}
-
-    events = process_schedule(grid, wf_details, year_start, legend)
-    print(f"Wygenerowano {len(events)} eventów")
-
-    with open(output_ics, "w", encoding="utf-8", newline="") as f:
-        f.write(build_ics(events, meta))
-
-    print(f"Zapisano: {output_ics}")
-
-    print("\n--- Pierwsze 5 eventów ---")
-    for ev in events[:5]:
-        print(f"  {ev['dtstart']} | {ev['summary']!r} | {ev['location']!r}")
-
-
-if __name__ == "__main__":
-    main()
