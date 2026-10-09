@@ -1,11 +1,11 @@
 {
   "meta": {
     "url": "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm",
-    "fetched_at": "2026-10-05T12:15:21Z",
+    "fetched_at": "2026-10-09T12:41:52Z",
     "academic_year_start": 2026,
     "academic_year_end": 2027,
     "semester_label": "zimowy",
-    "source_updated": "05.10.2026 12:58:32"
+    "source_updated": "09.10.2026 13:01:49"
   },
   "rows": [
     [
@@ -2100,7 +2100,7 @@
         "cell_idx": 6
       },
       {
-        "text": "Pokr\nL\n12 47; 35 47",
+        "text": "Pokr\nL\n12 47; 35 47; 21 47",
         "colspan": 1,
         "rowspan": 2,
         "bgcolor": "#B2DFEE",
@@ -6999,7 +6999,7 @@
         "cell_idx": 10
       },
       {
-        "text": "Pokr\nL\n12 47; 35 47",
+        "text": "Pokr\nL\n12 47; 35 47; 21 47",
         "colspan": 1,
         "rowspan": 2,
         "bgcolor": "#B2DFEE",
@@ -7035,7 +7035,7 @@
         "cell_idx": 14
       },
       {
-        "text": "Pokr\nL\n12 47; 35 47",
+        "text": "Pokr\nL\n12 47; 35 47; 21 47",
         "colspan": 1,
         "rowspan": 2,
         "bgcolor": "#B2DFEE",
