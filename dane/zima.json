@@ -1,11 +1,11 @@
 {
   "meta": {
     "url": "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm",
-    "fetched_at": "2026-10-10T12:00:51Z",
+    "fetched_at": "2026-10-12T14:37:06Z",
     "academic_year_start": 2026,
     "academic_year_end": 2027,
     "semester_label": "zimowy",
-    "source_updated": "09.10.2026 16:03:05"
+    "source_updated": "12.10.2026 14:44:12"
   },
   "rows": [
     [
@@ -5444,11 +5444,11 @@
         "cell_idx": 14
       },
       {
-        "text": "Asyg\nL\n115 47",
+        "text": "",
         "colspan": 1,
-        "rowspan": 2,
-        "bgcolor": "#FF80FF",
-        "style": "",
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
         "row_idx": 26,
         "cell_idx": 15
       },
@@ -5671,7 +5671,7 @@
         "cell_idx": 15
       },
       {
-        "text": "L 16",
+        "text": "",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
@@ -5680,13 +5680,22 @@
         "cell_idx": 16
       },
       {
+        "text": "L 16",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
+        "row_idx": 27,
+        "cell_idx": 17
+      },
+      {
         "text": "mgr inż. Kryk Michał",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "",
         "row_idx": 27,
-        "cell_idx": 17
+        "cell_idx": 18
       }
     ],
     [
@@ -7255,11 +7264,11 @@
         "cell_idx": 2
       },
       {
-        "text": "",
+        "text": "Asyg\nL\n115 47",
         "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "rowspan": 2,
+        "bgcolor": "#FF80FF",
+        "style": "",
         "row_idx": 36,
         "cell_idx": 3
       },
@@ -7464,20 +7473,20 @@
         "cell_idx": 3
       },
       {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 37,
-        "cell_idx": 4
-      },
-      {
         "text": "Asyg\nw\n0.09 42",
         "colspan": 1,
         "rowspan": 2,
         "bgcolor": "#FF80FF",
         "style": "",
+        "row_idx": 37,
+        "cell_idx": 4
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
         "row_idx": 37,
         "cell_idx": 5
       },
@@ -7486,7 +7495,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 37,
         "cell_idx": 6
       },
@@ -7495,7 +7504,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 37,
         "cell_idx": 7
       },
@@ -7513,7 +7522,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 37,
         "cell_idx": 9
       },
@@ -7522,7 +7531,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 37,
         "cell_idx": 10
       },
@@ -7540,7 +7549,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 37,
         "cell_idx": 12
       },
@@ -7549,7 +7558,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 37,
         "cell_idx": 13
       },
@@ -7581,7 +7590,7 @@
         "cell_idx": 16
       },
       {
-        "text": "",
+        "text": "L 12",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
@@ -7590,22 +7599,13 @@
         "cell_idx": 17
       },
       {
-        "text": "L 12",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 37,
-        "cell_idx": 18
-      },
-      {
         "text": "mgr Jasińska Hanna",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "",
         "row_idx": 37,
-        "cell_idx": 19
+        "cell_idx": 18
       }
     ],
     [
