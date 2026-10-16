@@ -1,11 +1,11 @@
 {
   "meta": {
     "url": "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm",
-    "fetched_at": "2026-10-15T10:57:39Z",
+    "fetched_at": "2026-10-16T10:51:06Z",
     "academic_year_start": 2026,
     "academic_year_end": 2027,
     "semester_label": "zimowy",
-    "source_updated": "14.10.2026 15:01:29"
+    "source_updated": "15.10.2026 15:51:15"
   },
   "rows": [
     [
@@ -19974,7 +19974,7 @@
         "cell_idx": 23
       },
       {
-        "text": "ć 10",
+        "text": "ć 6",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
@@ -20446,16 +20446,16 @@
         "cell_idx": 23
       },
       {
-        "text": "ZŻWAT",
+        "text": "ć 4",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:#A9F384",
+        "style": "height:13px;width:13px",
         "row_idx": 93,
         "cell_idx": 24
       },
       {
-        "text": "Zbiórka żołnierzy WAT",
+        "text": "st. kpr. Polankiewicz Anna",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
@@ -20682,12 +20682,248 @@
         "cell_idx": 23
       },
       {
+        "text": "ZŻWAT",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:#A9F384",
+        "row_idx": 94,
+        "cell_idx": 24
+      },
+      {
+        "text": "Zbiórka żołnierzy WAT",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "",
+        "row_idx": 94,
+        "cell_idx": 25
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 0
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 1
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 2
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 3
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 4
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 5
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 6
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 7
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 8
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 9
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 10
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 11
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 12
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 13
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 14
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 15
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 16
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 17
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 18
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 19
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 20
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 21
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 22
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 95,
+        "cell_idx": 23
+      },
+      {
         "text": "i 8",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px",
-        "row_idx": 94,
+        "row_idx": 95,
         "cell_idx": 24
       },
       {
@@ -20696,7 +20932,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "",
-        "row_idx": 94,
+        "row_idx": 95,
         "cell_idx": 25
       }
     ]
