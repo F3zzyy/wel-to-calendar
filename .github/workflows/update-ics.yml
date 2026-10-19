@@ -37,12 +37,12 @@ jobs:
 
     steps:
       - name: Checkout repozytorium
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0   # pełna historia: po niej poznajemy najnowszy plik WF
 
       - name: Konfiguracja Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -75,13 +75,13 @@ jobs:
           cp *.ics _site/
 
       - name: Konfiguracja Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload artefaktu Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
       - name: Deploy na GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
