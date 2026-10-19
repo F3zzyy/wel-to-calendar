@@ -1,11 +1,11 @@
 {
   "meta": {
     "url": "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm",
-    "fetched_at": "2026-10-17T10:15:07Z",
+    "fetched_at": "2026-10-19T19:42:50Z",
     "academic_year_start": 2026,
     "academic_year_end": 2027,
     "semester_label": "zimowy",
-    "source_updated": "16.10.2026 13:52:18"
+    "source_updated": "19.10.2026 15:04:40"
   },
   "rows": [
     [
@@ -3783,7 +3783,7 @@
       {
         "text": "DGB\nć",
         "colspan": 1,
-        "rowspan": 1,
+        "rowspan": 4,
         "bgcolor": "#00A629",
         "style": "",
         "row_idx": 18,
@@ -3981,22 +3981,13 @@
         "cell_idx": 8
       },
       {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 19,
-        "cell_idx": 9
-      },
-      {
         "text": "WF\nć",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "#787878",
         "style": "",
         "row_idx": 19,
-        "cell_idx": 10
+        "cell_idx": 9
       },
       {
         "text": "Mod\nć\n19 47",
@@ -4005,7 +3996,7 @@
         "bgcolor": "#FF8080",
         "style": "",
         "row_idx": 19,
-        "cell_idx": 11
+        "cell_idx": 10
       },
       {
         "text": "",
@@ -4014,7 +4005,7 @@
         "bgcolor": "",
         "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 19,
-        "cell_idx": 12
+        "cell_idx": 11
       },
       {
         "text": "",
@@ -4023,7 +4014,7 @@
         "bgcolor": "",
         "style": "height:13px;width:13px",
         "row_idx": 19,
-        "cell_idx": 13
+        "cell_idx": 12
       },
       {
         "text": "WF\nć",
@@ -4032,7 +4023,7 @@
         "bgcolor": "#787878",
         "style": "",
         "row_idx": 19,
-        "cell_idx": 14
+        "cell_idx": 13
       },
       {
         "text": "WF\nć",
@@ -4040,6 +4031,15 @@
         "rowspan": 1,
         "bgcolor": "#787878",
         "style": "",
+        "row_idx": 19,
+        "cell_idx": 14
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
         "row_idx": 19,
         "cell_idx": 15
       },
@@ -4071,22 +4071,13 @@
         "cell_idx": 18
       },
       {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 19,
-        "cell_idx": 19
-      },
-      {
         "text": "Ja",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:#D8AFAF",
         "row_idx": 19,
-        "cell_idx": 20
+        "cell_idx": 19
       },
       {
         "text": "Język angielski",
@@ -4095,7 +4086,7 @@
         "bgcolor": "",
         "style": "",
         "row_idx": 19,
-        "cell_idx": 21
+        "cell_idx": 20
       }
     ],
     [
@@ -4181,22 +4172,13 @@
         "cell_idx": 8
       },
       {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 20,
-        "cell_idx": 9
-      },
-      {
         "text": "Mod\nć\n19 47",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "#FF8080",
         "style": "",
         "row_idx": 20,
-        "cell_idx": 10
+        "cell_idx": 9
       },
       {
         "text": "Temi\nL\n16 45",
@@ -4205,7 +4187,7 @@
         "bgcolor": "#D2D200",
         "style": "",
         "row_idx": 20,
-        "cell_idx": 11
+        "cell_idx": 10
       },
       {
         "text": "",
@@ -4214,7 +4196,7 @@
         "bgcolor": "",
         "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 20,
-        "cell_idx": 12
+        "cell_idx": 11
       },
       {
         "text": "",
@@ -4223,7 +4205,7 @@
         "bgcolor": "",
         "style": "height:13px;width:13px",
         "row_idx": 20,
-        "cell_idx": 13
+        "cell_idx": 12
       },
       {
         "text": "Temi\nL\n16 45",
@@ -4232,7 +4214,7 @@
         "bgcolor": "#D2D200",
         "style": "",
         "row_idx": 20,
-        "cell_idx": 14
+        "cell_idx": 13
       },
       {
         "text": "Sitd\nS\n15 47",
@@ -4241,7 +4223,7 @@
         "bgcolor": "#FBD5FF",
         "style": "",
         "row_idx": 20,
-        "cell_idx": 15
+        "cell_idx": 14
       },
       {
         "text": "Apfe\nL\n22 75",
@@ -4249,6 +4231,15 @@
         "rowspan": 2,
         "bgcolor": "#A5EE6F",
         "style": "",
+        "row_idx": 20,
+        "cell_idx": 15
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
         "row_idx": 20,
         "cell_idx": 16
       },
@@ -4280,7 +4271,7 @@
         "cell_idx": 19
       },
       {
-        "text": "",
+        "text": "ć 60",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
@@ -4289,22 +4280,13 @@
         "cell_idx": 20
       },
       {
-        "text": "ć 60",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 20,
-        "cell_idx": 21
-      },
-      {
         "text": "",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "",
         "row_idx": 20,
-        "cell_idx": 22
+        "cell_idx": 21
       }
     ],
     [
@@ -4394,7 +4376,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 21,
         "cell_idx": 9
       },
@@ -4403,7 +4385,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 21,
         "cell_idx": 10
       },
@@ -4444,22 +4426,13 @@
         "cell_idx": 14
       },
       {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 21,
-        "cell_idx": 15
-      },
-      {
         "text": "Kstr",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:#C5C0DC",
         "row_idx": 21,
-        "cell_idx": 16
+        "cell_idx": 15
       },
       {
         "text": "Kodowanie sygnałów transmisyjnych",
@@ -4468,7 +4441,7 @@
         "bgcolor": "",
         "style": "",
         "row_idx": 21,
-        "cell_idx": 17
+        "cell_idx": 16
       }
     ],
     [
@@ -12249,7 +12222,7 @@
         "cell_idx": 23
       },
       {
-        "text": "ć 10",
+        "text": "ć 16",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
