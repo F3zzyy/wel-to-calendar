@@ -1,11 +1,11 @@
 {
   "meta": {
     "url": "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm",
-    "fetched_at": "2026-10-22T11:16:39Z",
+    "fetched_at": "2026-10-23T11:07:35Z",
     "academic_year_start": 2026,
     "academic_year_end": 2027,
     "semester_label": "zimowy",
-    "source_updated": "21.10.2026 14:54:16"
+    "source_updated": "22.10.2026 14:22:11"
   },
   "rows": [
     [
@@ -2083,12 +2083,21 @@
       },
       {
         "text": "Asyg\nw\n0.09 42",
-        "colspan": 2,
+        "colspan": 1,
         "rowspan": 1,
         "bgcolor": "#FF80FF",
         "style": "",
         "row_idx": 10,
         "cell_idx": 5
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
+        "row_idx": 10,
+        "cell_idx": 6
       },
       {
         "text": "Asyg\nw\n0.09 42",
@@ -2097,7 +2106,7 @@
         "bgcolor": "#FF80FF",
         "style": "",
         "row_idx": 10,
-        "cell_idx": 6
+        "cell_idx": 7
       },
       {
         "text": "Pokr\nL\n12 47; 35 47; 21 47",
@@ -2106,7 +2115,7 @@
         "bgcolor": "#B2DFEE",
         "style": "",
         "row_idx": 10,
-        "cell_idx": 7
+        "cell_idx": 8
       },
       {
         "text": "Asyg\nL\n115 47",
@@ -2115,7 +2124,7 @@
         "bgcolor": "#FF80FF",
         "style": "",
         "row_idx": 10,
-        "cell_idx": 8
+        "cell_idx": 9
       },
       {
         "text": "Temi\nL\n16 45",
@@ -2124,7 +2133,7 @@
         "bgcolor": "#D2D200",
         "style": "",
         "row_idx": 10,
-        "cell_idx": 9
+        "cell_idx": 10
       },
       {
         "text": "Apfe\nL\n22 75",
@@ -2133,15 +2142,6 @@
         "bgcolor": "#A5EE6F",
         "style": "",
         "row_idx": 10,
-        "cell_idx": 10
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 10,
         "cell_idx": 11
       },
       {
@@ -2149,7 +2149,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 10,
         "cell_idx": 12
       },
@@ -2158,7 +2158,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 10,
         "cell_idx": 13
       },
@@ -2172,13 +2172,22 @@
         "cell_idx": 14
       },
       {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
+        "row_idx": 10,
+        "cell_idx": 15
+      },
+      {
         "text": "Wbd\nP\n115 47",
         "colspan": 1,
         "rowspan": 2,
         "bgcolor": "#9CDDDB",
         "style": "",
         "row_idx": 10,
-        "cell_idx": 15
+        "cell_idx": 16
       },
       {
         "text": "ZaMe\nć\nAW 1\nT13Ć",
@@ -2186,15 +2195,6 @@
         "rowspan": 3,
         "bgcolor": "#CE0F31",
         "style": "",
-        "row_idx": 10,
-        "cell_idx": 16
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
         "row_idx": 10,
         "cell_idx": 17
       },
@@ -2226,7 +2226,7 @@
         "cell_idx": 20
       },
       {
-        "text": "L 12",
+        "text": "",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
@@ -2235,13 +2235,22 @@
         "cell_idx": 21
       },
       {
+        "text": "L 12",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
+        "row_idx": 10,
+        "cell_idx": 22
+      },
+      {
         "text": "mgr inż. Dudziński Bartosz",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "",
         "row_idx": 10,
-        "cell_idx": 22
+        "cell_idx": 23
       }
     ],
     [
@@ -3754,11 +3763,11 @@
         "cell_idx": 7
       },
       {
-        "text": "ZŻWAT\nć",
+        "text": "",
         "colspan": 1,
         "rowspan": 1,
-        "bgcolor": "#A9F384",
-        "style": "",
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 18,
         "cell_idx": 8
       },
@@ -7466,7 +7475,7 @@
       {
         "text": "Asyg\nw\n0.09 42",
         "colspan": 1,
-        "rowspan": 2,
+        "rowspan": 1,
         "bgcolor": "#FF80FF",
         "style": "",
         "row_idx": 37,
@@ -7646,11 +7655,11 @@
         "cell_idx": 4
       },
       {
-        "text": "",
-        "colspan": 1,
+        "text": "Asyg\nw\n0.09 42",
+        "colspan": 2,
         "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "bgcolor": "#FF80FF",
+        "style": "",
         "row_idx": 38,
         "cell_idx": 5
       },
@@ -20918,7 +20927,7 @@
         "cell_idx": 23
       },
       {
-        "text": "ć 8",
+        "text": "ć 6",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
