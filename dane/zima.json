@@ -1,11 +1,11 @@
 {
   "meta": {
     "url": "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm",
-    "fetched_at": "2026-11-02T14:55:51Z",
+    "fetched_at": "2026-11-04T13:52:57Z",
     "academic_year_start": 2026,
     "academic_year_end": 2027,
     "semester_label": "zimowy",
-    "source_updated": "02.11.2026 14:37:51"
+    "source_updated": "03.11.2026 14:43:24"
   },
   "rows": [
     [
@@ -628,11 +628,11 @@
         "cell_idx": 7
       },
       {
-        "text": "Mod\nć\n118 45",
+        "text": "",
         "colspan": 1,
         "rowspan": 1,
-        "bgcolor": "#FF8080",
-        "style": "",
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 3,
         "cell_idx": 8
       },
@@ -1255,11 +1255,11 @@
         "cell_idx": 7
       },
       {
-        "text": "",
+        "text": "Asyg\nw\n0.09 42",
         "colspan": 1,
         "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "bgcolor": "#FF80FF",
+        "style": "",
         "row_idx": 6,
         "cell_idx": 8
       },
@@ -4354,11 +4354,11 @@
         "cell_idx": 5
       },
       {
-        "text": "",
+        "text": "Mod\nć\n19 47",
         "colspan": 1,
         "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "bgcolor": "#FF8080",
+        "style": "",
         "row_idx": 21,
         "cell_idx": 6
       },
@@ -7475,7 +7475,7 @@
       {
         "text": "Asyg\nw\n0.09 42",
         "colspan": 1,
-        "rowspan": 1,
+        "rowspan": 2,
         "bgcolor": "#FF80FF",
         "style": "",
         "row_idx": 37,
@@ -7655,11 +7655,11 @@
         "cell_idx": 4
       },
       {
-        "text": "Asyg\nw\n0.09 42",
-        "colspan": 2,
+        "text": "",
+        "colspan": 1,
         "rowspan": 1,
-        "bgcolor": "#FF80FF",
-        "style": "",
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
         "row_idx": 38,
         "cell_idx": 5
       },
