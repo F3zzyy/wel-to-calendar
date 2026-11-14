@@ -1,11 +1,11 @@
 {
   "meta": {
     "url": "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm",
-    "fetched_at": "2026-11-12T14:44:17Z",
+    "fetched_at": "2026-11-14T13:03:24Z",
     "academic_year_start": 2026,
     "academic_year_end": 2027,
     "semester_label": "zimowy",
-    "source_updated": "12.11.2026 14:46:35"
+    "source_updated": "13.11.2026 15:13:24"
   },
   "rows": [
     [
@@ -19958,7 +19958,7 @@
       {
         "text": "ppor. mgr Szwed Katarzyna",
         "colspan": 1,
-        "rowspan": 1,
+        "rowspan": 2,
         "bgcolor": "",
         "style": "",
         "row_idx": 91,
@@ -20183,258 +20183,13 @@
         "cell_idx": 23
       },
       {
-        "text": "ć 6",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 92,
-        "cell_idx": 24
-      },
-      {
-        "text": "mł.chor. Koczański Maciej",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "",
-        "row_idx": 92,
-        "cell_idx": 25
-      }
-    ],
-    [
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 0
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 1
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 2
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 3
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 4
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 5
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 6
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 7
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 8
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 9
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 10
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 11
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 12
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 13
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 14
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 15
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 16
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 17
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 18
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 19
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 20
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 21
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 22
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 93,
-        "cell_idx": 23
-      },
-      {
         "text": "ć 16",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px",
-        "row_idx": 93,
+        "row_idx": 92,
         "cell_idx": 24
-      },
-      {
-        "text": "ppor. mgr Szwed Katarzyna",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "",
-        "row_idx": 93,
-        "cell_idx": 25
       }
     ],
     [
@@ -20444,7 +20199,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 0
       },
       {
@@ -20453,7 +20208,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 1
       },
       {
@@ -20462,7 +20217,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 2
       },
       {
@@ -20471,7 +20226,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 3
       },
       {
@@ -20480,7 +20235,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 4
       },
       {
@@ -20489,7 +20244,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 5
       },
       {
@@ -20498,7 +20253,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 6
       },
       {
@@ -20507,7 +20262,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 7
       },
       {
@@ -20516,7 +20271,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 8
       },
       {
@@ -20525,7 +20280,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 9
       },
       {
@@ -20534,7 +20289,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 10
       },
       {
@@ -20543,7 +20298,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 11
       },
       {
@@ -20552,7 +20307,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 12
       },
       {
@@ -20561,7 +20316,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 13
       },
       {
@@ -20570,7 +20325,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 14
       },
       {
@@ -20579,7 +20334,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 15
       },
       {
@@ -20588,7 +20343,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 16
       },
       {
@@ -20597,7 +20352,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 17
       },
       {
@@ -20606,7 +20361,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 18
       },
       {
@@ -20615,7 +20370,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 19
       },
       {
@@ -20624,7 +20379,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 20
       },
       {
@@ -20633,7 +20388,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 21
       },
       {
@@ -20642,7 +20397,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 22
       },
       {
@@ -20651,7 +20406,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 23
       },
       {
@@ -20660,7 +20415,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px",
-        "row_idx": 94,
+        "row_idx": 93,
         "cell_idx": 24
       },
       {
@@ -20669,6 +20424,242 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "",
+        "row_idx": 93,
+        "cell_idx": 25
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 0
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 1
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 2
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 3
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 4
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 5
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 6
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 7
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 8
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 9
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 10
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 11
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 12
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 13
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 14
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 15
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 16
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 17
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 18
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 19
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 20
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 21
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 22
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:silver",
+        "row_idx": 94,
+        "cell_idx": 23
+      },
+      {
+        "text": "ZŻWAT",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px;background-color:#A9F384",
+        "row_idx": 94,
+        "cell_idx": 24
+      },
+      {
+        "text": "Zbiórka żołnierzy WAT",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "",
         "row_idx": 94,
         "cell_idx": 25
       }
@@ -20891,248 +20882,12 @@
         "cell_idx": 23
       },
       {
-        "text": "ZŻWAT",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:#A9F384",
-        "row_idx": 95,
-        "cell_idx": 24
-      },
-      {
-        "text": "Zbiórka żołnierzy WAT",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "",
-        "row_idx": 95,
-        "cell_idx": 25
-      }
-    ],
-    [
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 0
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 1
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 2
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 3
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 4
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 5
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 6
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 7
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 8
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 9
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 10
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 11
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 12
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 13
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 14
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 15
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 16
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 17
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 18
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 19
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 20
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 21
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 22
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px;background-color:silver",
-        "row_idx": 96,
-        "cell_idx": 23
-      },
-      {
         "text": "ć 6",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px",
-        "row_idx": 96,
+        "row_idx": 95,
         "cell_idx": 24
       },
       {
@@ -21141,7 +20896,7 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "",
-        "row_idx": 96,
+        "row_idx": 95,
         "cell_idx": 25
       }
     ]
