@@ -1,11 +1,11 @@
 {
   "meta": {
     "url": "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm",
-    "fetched_at": "2026-11-14T13:03:24Z",
+    "fetched_at": "2026-11-17T15:35:40Z",
     "academic_year_start": 2026,
     "academic_year_end": 2027,
     "semester_label": "zimowy",
-    "source_updated": "13.11.2026 15:13:24"
+    "source_updated": "17.11.2026 14:57:50"
   },
   "rows": [
     [
@@ -4554,7 +4554,7 @@
         "cell_idx": 10
       },
       {
-        "text": "WF\nw",
+        "text": "WF\nw\nsala kina WAT",
         "colspan": 2,
         "rowspan": 1,
         "bgcolor": "#787878",
@@ -4590,7 +4590,7 @@
         "cell_idx": 14
       },
       {
-        "text": "WF\nw",
+        "text": "WF\nw\nsala kina WAT",
         "colspan": 2,
         "rowspan": 1,
         "bgcolor": "#787878",
@@ -4599,7 +4599,7 @@
         "cell_idx": 15
       },
       {
-        "text": "WF\nw",
+        "text": "WF\nw\nsala kina WAT",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "#787878",
