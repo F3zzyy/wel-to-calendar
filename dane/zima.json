@@ -1,11 +1,11 @@
 {
   "meta": {
     "url": "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm",
-    "fetched_at": "2026-11-18T15:13:30Z",
+    "fetched_at": "2026-11-19T15:21:03Z",
     "academic_year_start": 2026,
     "academic_year_end": 2027,
     "semester_label": "zimowy",
-    "source_updated": "18.11.2026 14:52:27"
+    "source_updated": "19.11.2026 14:31:37"
   },
   "rows": [
     [
@@ -8954,11 +8954,11 @@
         "cell_idx": 8
       },
       {
-        "text": "XOis2\nL\n81 S; 83 S",
+        "text": "",
         "colspan": 1,
-        "rowspan": 2,
-        "bgcolor": "#8CC6FF",
-        "style": "",
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
         "row_idx": 44,
         "cell_idx": 9
       },
@@ -9158,7 +9158,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 45,
         "cell_idx": 7
       },
@@ -9167,7 +9167,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 45,
         "cell_idx": 8
       },
@@ -9194,9 +9194,18 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 45,
         "cell_idx": 11
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "row_idx": 45,
+        "cell_idx": 12
       },
       {
         "text": "XOis2\nL\n81 S; 83 S",
@@ -9205,7 +9214,7 @@
         "bgcolor": "#8CC6FF",
         "style": "",
         "row_idx": 45,
-        "cell_idx": 12
+        "cell_idx": 13
       },
       {
         "text": "XOis2\nć\n118 45",
@@ -9214,15 +9223,6 @@
         "bgcolor": "#8CC6FF",
         "style": "",
         "row_idx": 45,
-        "cell_idx": 13
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 45,
         "cell_idx": 14
       },
       {
@@ -9230,7 +9230,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 45,
         "cell_idx": 15
       },
@@ -9239,7 +9239,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 45,
         "cell_idx": 16
       },
@@ -9271,13 +9271,22 @@
         "cell_idx": 19
       },
       {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
+        "row_idx": 45,
+        "cell_idx": 20
+      },
+      {
         "text": "Sstk",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:#FF80FF",
         "row_idx": 45,
-        "cell_idx": 20
+        "cell_idx": 21
       },
       {
         "text": "Systemy i sieci telekomunikacyjne",
@@ -9286,7 +9295,7 @@
         "bgcolor": "",
         "style": "",
         "row_idx": 45,
-        "cell_idx": 21
+        "cell_idx": 22
       }
     ],
     [
@@ -10707,11 +10716,11 @@
         "cell_idx": 9
       },
       {
-        "text": "",
+        "text": "XOis2\nL\n81 S; 83 S",
         "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "rowspan": 2,
+        "bgcolor": "#8CC6FF",
+        "style": "",
         "row_idx": 52,
         "cell_idx": 10
       },
@@ -10956,7 +10965,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 53,
         "cell_idx": 13
       },
@@ -10965,7 +10974,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 53,
         "cell_idx": 14
       },
@@ -10992,7 +11001,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 53,
         "cell_idx": 17
       },
@@ -11001,7 +11010,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 53,
         "cell_idx": 18
       },
@@ -11033,7 +11042,7 @@
         "cell_idx": 21
       },
       {
-        "text": "",
+        "text": "ć 28",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
@@ -11042,22 +11051,13 @@
         "cell_idx": 22
       },
       {
-        "text": "ć 28",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 53,
-        "cell_idx": 23
-      },
-      {
         "text": "",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "",
         "row_idx": 53,
-        "cell_idx": 24
+        "cell_idx": 23
       }
     ],
     [
