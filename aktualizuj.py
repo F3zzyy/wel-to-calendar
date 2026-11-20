@@ -13,11 +13,11 @@ Co robi, po kolei:
      WAT zostawił na stronie, nie wraca do kalendarza. Zima/lato przełącza się samo.
   4. Dla każdego semestru dokleja szczegóły WF z folderu WF/<rok>_<semestr>/
      (najnowszy plik .xlsx). Folder na nowy semestr tworzy się sam.
-  5. Dokleja zajęcia z planów dodatkowych ([dodatkowe.*] w USTAWIENIA.toml, np. innej
-     grupy). Wspólne zajęcia (ten sam przedmiot o tej samej porze) nie są dublowane.
-     Niedziałający plan dodatkowy to tylko ostrzeżenie — Twój plan aktualizuje się dalej.
-  6. Zapisuje jeden kalendarz <grupa>.ics + identyczną kopię <grupa>_zima.ics
+  5. Zapisuje Twój kalendarz <grupa>.ics + identyczną kopię <grupa>_zima.ics
      (stara nazwa, żeby dotychczasowe subskrypcje dalej działały).
+  6. Dla każdej grupy z [inne_grupy.*] buduje OSOBNY kalendarz <NAZWA>.ics (osobny link,
+     bez Twojego WF). Gdy jej plan nie działa, jej plik zostaje w ostatniej dobrej wersji,
+     a Twój kalendarz aktualizuje się normalnie.
 
 Ostrzeżenia widać w GitHubie: Actions → ostatni przebieg → podsumowanie.
 """
@@ -122,17 +122,17 @@ def wczytaj_ustawienia() -> tuple[str, dict[str, str], dict[str, dict[str, str]]
         blad("W USTAWIENIA.toml brakuje sekcji [plany] z liniami zima = ... i lato = ...")
     linki = wczytaj_linki(cfg["plany"], "[plany]")
 
-    dodatkowe = cfg.get("dodatkowe", {})
-    if not isinstance(dodatkowe, dict):
-        blad("Sekcja [dodatkowe] w USTAWIENIA.toml ma zły format — użyj bloków "
-             "[dodatkowe.NAZWA] z liniami zima = ... i lato = ...")
-    for nazwa in dodatkowe:
+    inne = cfg.get("inne_grupy", {})
+    if not isinstance(inne, dict):
+        blad("Sekcja [inne_grupy] w USTAWIENIA.toml ma zły format — użyj bloków "
+             "[inne_grupy.NAZWA] z liniami zima = ... i lato = ...")
+    for nazwa in inne:
         if not re.match(r"^[A-Za-z0-9_-]+$", nazwa):
-            blad(f"Nazwa planu dodatkowego „{nazwa}” — tylko litery, cyfry, - i _.")
+            blad(f"Nazwa grupy „{nazwa}” w [inne_grupy] — tylko litery, cyfry, - i _.")
         if nazwa == grupa.strip():
-            blad(f"[dodatkowe.{nazwa}] to Twoja własna grupa — ona jest już w [plany].")
-    dodatkowe = {n: wczytaj_linki(v, f"[dodatkowe.{n}]") for n, v in dodatkowe.items()}
-    return grupa.strip(), linki, dodatkowe
+            blad(f"[inne_grupy.{nazwa}] to Twoja własna grupa — ona jest już w [plany].")
+    inne = {n: wczytaj_linki(v, f"[inne_grupy.{n}]") for n, v in inne.items()}
+    return grupa.strip(), linki, inne
 
 
 # --------------------------------------------------------------------------
@@ -161,9 +161,9 @@ def zapas(cache: Path) -> str:
 
 
 def wczytaj_plan(sem: str, url: str, offline: bool, kto: str | None = None) -> dict | None:
-    """kto=None → Twój plan (dane/<sem>.json), kto="GRUPA" → plan dodatkowy
-    (dane/dodatkowe/GRUPA/<sem>.json). Komunikaty dostają odpowiedni prefiks."""
-    cache = DANE / f"{sem}.json" if kto is None else DANE / "dodatkowe" / kto / f"{sem}.json"
+    """kto=None → Twój plan (dane/<sem>.json), kto="GRUPA" → plan innej grupy
+    (dane/inne_grupy/GRUPA/<sem>.json). Komunikaty dostają odpowiedni prefiks."""
+    cache = DANE / f"{sem}.json" if kto is None else DANE / "inne_grupy" / kto / f"{sem}.json"
     sem_tag = sem if kto is None else f"{kto} {sem}"
 
     if not url:
@@ -303,27 +303,45 @@ def eventy_semestru(sem: str, data: dict) -> list[dict]:
     return events
 
 
-def eventy_dodatkowe(kto: str, sem: str, data: dict, wlasne: dict[str, dict]) -> list[dict]:
-    """Zajęcia z planu dodatkowego, bez tych, które już są w Twoim planie."""
-    year = data["meta"]["academic_year_start"]
-    grid, legend = siatka_i_legenda(data)
-    zajete = {(e["dtstart"], e["dtend"], e["summary"]) for e in wlasne.values()}
+def zapisz_ics(nazwa: str, grupa: str, plany: dict, events: list[dict]) -> None:
+    lista = sorted(events, key=lambda e: (e["dtstart"], e["uid"]))
+    opis = " | ".join(
+        f"{sem} {d['meta']['academic_year_start']}/{d['meta']['academic_year_end']}: "
+        f"{d['meta'].get('url', '')} (aktualizacja {d['meta'].get('source_updated', '?')})"
+        for sem, d in plany.items())
+    dtstamp = max(gen.build_dtstamp(d["meta"]) for d in plany.values())
+    ics = gen.build_ics(lista, f"WAT {grupa}", opis, dtstamp)
+    with open(ROOT / nazwa, "w", encoding="utf-8", newline="") as f:
+        f.write(ics)
 
-    nowe, wspolne = [], 0
-    for ev in gen.process_schedule(grid, {}, year, legend):  # {} = bez Twojego pliku WF
-        if (ev["dtstart"], ev["dtend"], ev["summary"]) in zajete:
-            wspolne += 1
-            continue
-        ev["uid"] = ev["uid"].replace("@", f"-{kto}@", 1)  # nie koliduje z Twoimi UID
-        ev["description"] = "\n".join(filter(None, [f"Plan grupy {kto}", ev["description"]]))
-        nowe.append(ev)
 
-    opis = f"dodatkowy {kto} — {sem} {year}/{year + 1}: +{len(nowe)} zajęć"
-    if wspolne:
-        opis += f" ({wspolne} wspólnych z Twoim planem pominiętych)"
+def zbuduj_inna_grupe(kto: str, linki: dict[str, str], offline: bool) -> None:
+    """Osobny kalendarz <kto>.ics. Problem = tylko ostrzeżenie, plik zostaje bez zmian."""
+    plany = {sem: d for sem, url in linki.items()
+             if (d := wczytaj_plan(sem, url, offline, kto)) is not None}
+    if not plany:
+        uwaga(f"[{kto}] plan jest niedostępny — {kto}.ics zostaje w ostatniej wersji"
+              f"{'' if (ROOT / f'{kto}.ics').exists() else ' (na razie go nie ma)'}. "
+              "Zaktualizuje się sam, gdy strona WAT zacznie działać.")
+        return
+    najnowszy = max(d["meta"]["academic_year_start"] for d in plany.values())
+    plany = {s: d for s, d in plany.items() if d["meta"]["academic_year_start"] == najnowszy}
+
+    events: dict[str, dict] = {}
+    for sem, data in plany.items():
+        grid, legend = siatka_i_legenda(data)
+        for ev in gen.process_schedule(grid, {}, najnowszy, legend):  # {} = bez WF z pliku
+            # Sufiks w UID: ten sam wspólny wykład w Twoim i tym kalendarzu ma różne UID.
+            ev["uid"] = ev["uid"].replace("@", f"-{kto}@", 1)
+            events.setdefault(ev["uid"], ev)
+    if not events:
+        uwaga(f"[{kto}] z planu wyszło 0 zajęć — nie nadpisuję {kto}.ics")
+        return
+
+    zapisz_ics(f"{kto}.ics", kto, plany, list(events.values()))
+    opis = f"{kto}.ics — {', '.join(f'{s} {najnowszy}/{najnowszy + 1}' for s in plany)}: {len(events)} zajęć"
     podsumowanie.append(f"- ✅ {opis}")
-    info(opis)
-    return nowe
+    info(f"Zapisano {opis}")
 
 
 def main() -> None:
@@ -332,7 +350,7 @@ def main() -> None:
                         help="nie pobieraj z WAT, użyj planów zapisanych w dane/")
     args = parser.parse_args()
 
-    grupa, linki, dodatkowe = wczytaj_ustawienia()
+    grupa, linki, inne = wczytaj_ustawienia()
 
     plany = {sem: d for sem, url in linki.items()
              if (d := wczytaj_plan(sem, url, args.offline)) is not None}
@@ -353,43 +371,20 @@ def main() -> None:
             events.setdefault(ev["uid"], ev)
     sprawdz_zabladzone_pliki_wf()
 
-    # Plany dodatkowe: tylko z tego samego roku akademickiego co Twój plan.
-    # Gdy któregoś nie ma (strona nie działa / pusta), Twój kalendarz i tak się zapisze.
-    plany_dodatkowe: dict[str, dict] = {}
-    for kto, linki_d in dodatkowe.items():
-        for sem, url in linki_d.items():
-            data = wczytaj_plan(sem, url, args.offline, kto)
-            if data is None:
-                continue
-            y = data["meta"]["academic_year_start"]
-            if y != najnowszy:
-                info(f"[{kto} {sem}] plan z roku {y}/{y + 1}, a Twój jest z "
-                     f"{najnowszy}/{najnowszy + 1} — pomijam")
-                continue
-            plany_dodatkowe[f"{kto} {sem}"] = data
-            for ev in eventy_dodatkowe(kto, sem, data, events):
-                events.setdefault(ev["uid"], ev)
-        if not any(k.startswith(f"{kto} ") for k in plany_dodatkowe):
-            uwaga(f"[{kto}] plan dodatkowy jest niedostępny — w kalendarzu na razie go nie ma. "
-                  "Pojawi się sam, gdy strona WAT zacznie działać.")
-
     if not events:
         blad("Z planów wyszło 0 zajęć — nie nadpisuję kalendarza. Otwórz linki z "
              "USTAWIENIA.toml w przeglądarce i sprawdź, czy plan tam jest.")
 
-    lista = sorted(events.values(), key=lambda e: (e["dtstart"], e["uid"]))
-    opis = " | ".join(
-        f"{sem} {d['meta']['academic_year_start']}/{d['meta']['academic_year_end']}: "
-        f"{d['meta'].get('url', '')} (aktualizacja {d['meta'].get('source_updated', '?')})"
-        for sem, d in {**plany, **plany_dodatkowe}.items())
-    dtstamp = max(gen.build_dtstamp(d["meta"]) for d in {**plany, **plany_dodatkowe}.values())
-    ics = gen.build_ics(lista, f"WAT {grupa}", opis, dtstamp)
-
     for nazwa in (f"{grupa}.ics", f"{grupa}_zima.ics"):
-        with open(ROOT / nazwa, "w", encoding="utf-8", newline="") as f:
-            f.write(ics)
-    info(f"Zapisano {len(lista)} zajęć do {grupa}.ics (+ kopia {grupa}_zima.ics)")
-    zapisz_podsumowanie(f"Kalendarz {grupa}.ics — {len(lista)} zajęć")
+        zapisz_ics(nazwa, grupa, plany, list(events.values()))
+    info(f"Zapisano {len(events)} zajęć do {grupa}.ics (+ kopia {grupa}_zima.ics)")
+
+    # Kalendarze innych grup — każdy osobno, nie wpływają na Twój.
+    for kto, linki_g in inne.items():
+        zbuduj_inna_grupe(kto, linki_g, args.offline)
+
+    zapisz_podsumowanie(f"Kalendarz {grupa}.ics — {len(events)} zajęć"
+                        + "".join(f" · {k}.ics" for k in inne))
 
 
 if __name__ == "__main__":
