@@ -13,7 +13,10 @@ Co robi, po kolei:
      WAT zostawił na stronie, nie wraca do kalendarza. Zima/lato przełącza się samo.
   4. Dla każdego semestru dokleja szczegóły WF z folderu WF/<rok>_<semestr>/
      (najnowszy plik .xlsx). Folder na nowy semestr tworzy się sam.
-  5. Zapisuje jeden kalendarz <grupa>.ics + identyczną kopię <grupa>_zima.ics
+  5. Dokleja zajęcia z planów dodatkowych ([dodatkowe.*] w USTAWIENIA.toml, np. innej
+     grupy). Wspólne zajęcia (ten sam przedmiot o tej samej porze) nie są dublowane.
+     Niedziałający plan dodatkowy to tylko ostrzeżenie — Twój plan aktualizuje się dalej.
+  6. Zapisuje jeden kalendarz <grupa>.ics + identyczną kopię <grupa>_zima.ics
      (stara nazwa, żeby dotychczasowe subskrypcje dalej działały).
 
 Ostrzeżenia widać w GitHubie: Actions → ostatni przebieg → podsumowanie.
@@ -80,7 +83,29 @@ def rel(p: Path) -> str:
 # USTAWIENIA.toml
 # --------------------------------------------------------------------------
 
-def wczytaj_ustawienia() -> tuple[str, dict[str, str]]:
+def wczytaj_linki(plany, gdzie: str) -> dict[str, str]:
+    """Sprawdza sekcję z linkami zima/lato i zwraca {"zima": url, "lato": url}."""
+    if not isinstance(plany, dict):
+        blad(f"W USTAWIENIA.toml sekcja {gdzie} musi mieć linie zima = ... i lato = ...")
+    nieznane = set(plany) - set(SEMESTRY)
+    if nieznane:
+        blad(f"W {gdzie} są nieznane nazwy: {', '.join(sorted(nieznane))}. "
+             "Dozwolone tylko: zima, lato.")
+    linki = {}
+    for sem in SEMESTRY:
+        url = plany.get(sem, "")
+        if not isinstance(url, str):
+            blad(f'Link "{sem}" w {gdzie} musi być w cudzysłowie.')
+        url = url.strip()
+        if url and not url.startswith(("https://", "http://")):
+            blad(f'Link "{sem}" w {gdzie} musi zaczynać się od https:// — jest: {url!r}')
+        linki[sem] = url
+    if not any(linki.values()):
+        blad(f"Oba linki w {gdzie} są puste — nie ma czego pobierać.")
+    return linki
+
+
+def wczytaj_ustawienia() -> tuple[str, dict[str, str], dict[str, dict[str, str]]]:
     if not USTAWIENIA.exists():
         blad("Brak pliku USTAWIENIA.toml w głównym folderze repo.")
     try:
@@ -93,26 +118,21 @@ def wczytaj_ustawienia() -> tuple[str, dict[str, str]]:
     if not isinstance(grupa, str) or not grupa.strip():
         blad('W USTAWIENIA.toml brakuje linii:  grupa = "WEL24EL2S0"')
 
-    plany = cfg.get("plany")
-    if not isinstance(plany, dict):
+    if "plany" not in cfg:
         blad("W USTAWIENIA.toml brakuje sekcji [plany] z liniami zima = ... i lato = ...")
-    nieznane = set(plany) - set(SEMESTRY)
-    if nieznane:
-        blad(f"W [plany] są nieznane nazwy: {', '.join(sorted(nieznane))}. "
-             "Dozwolone tylko: zima, lato.")
+    linki = wczytaj_linki(cfg["plany"], "[plany]")
 
-    linki = {}
-    for sem in SEMESTRY:
-        url = plany.get(sem, "")
-        if not isinstance(url, str):
-            blad(f'Link "{sem}" w USTAWIENIA.toml musi być w cudzysłowie.')
-        url = url.strip()
-        if url and not url.startswith(("https://", "http://")):
-            blad(f'Link "{sem}" musi zaczynać się od https:// — jest: {url!r}')
-        linki[sem] = url
-    if not any(linki.values()):
-        blad("Oba linki w [plany] są puste — nie ma czego pobierać.")
-    return grupa.strip(), linki
+    dodatkowe = cfg.get("dodatkowe", {})
+    if not isinstance(dodatkowe, dict):
+        blad("Sekcja [dodatkowe] w USTAWIENIA.toml ma zły format — użyj bloków "
+             "[dodatkowe.NAZWA] z liniami zima = ... i lato = ...")
+    for nazwa in dodatkowe:
+        if not re.match(r"^[A-Za-z0-9_-]+$", nazwa):
+            blad(f"Nazwa planu dodatkowego „{nazwa}” — tylko litery, cyfry, - i _.")
+        if nazwa == grupa.strip():
+            blad(f"[dodatkowe.{nazwa}] to Twoja własna grupa — ona jest już w [plany].")
+    dodatkowe = {n: wczytaj_linki(v, f"[dodatkowe.{n}]") for n, v in dodatkowe.items()}
+    return grupa.strip(), linki, dodatkowe
 
 
 # --------------------------------------------------------------------------
@@ -140,11 +160,14 @@ def zapas(cache: Path) -> str:
             else "Zapisanej wersji brak, więc ten semestr jest pominięty.")
 
 
-def wczytaj_plan(sem: str, url: str, offline: bool) -> dict | None:
-    cache = DANE / f"{sem}.json"
+def wczytaj_plan(sem: str, url: str, offline: bool, kto: str | None = None) -> dict | None:
+    """kto=None → Twój plan (dane/<sem>.json), kto="GRUPA" → plan dodatkowy
+    (dane/dodatkowe/GRUPA/<sem>.json). Komunikaty dostają odpowiedni prefiks."""
+    cache = DANE / f"{sem}.json" if kto is None else DANE / "dodatkowe" / kto / f"{sem}.json"
+    sem_tag = sem if kto is None else f"{kto} {sem}"
 
     if not url:
-        info(f"[{sem}] link w USTAWIENIA.toml jest pusty — pomijam ten semestr")
+        info(f"[{sem_tag}] link w USTAWIENIA.toml jest pusty — pomijam ten semestr")
         return None
 
     if not offline:
@@ -155,31 +178,31 @@ def wczytaj_plan(sem: str, url: str, offline: bool) -> dict | None:
             problem = problem_z_planem(data, sem)
             if problem:
                 raise ValueError(problem)
-            DANE.mkdir(exist_ok=True)
+            cache.parent.mkdir(parents=True, exist_ok=True)
             cache.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n",
                              encoding="utf-8")
-            info(f"[{sem}] pobrano plan {data['meta']['academic_year_start']}/"
+            info(f"[{sem_tag}] pobrano plan {data['meta']['academic_year_start']}/"
                  f"{data['meta']['academic_year_end']}")
             return data
         except requests.HTTPError as e:
             code = e.response.status_code if e.response is not None else "?"
             if code == 404 and not cache.exists():
-                info(f"[{sem}] WAT nie opublikował jeszcze tego planu (404) — pomijam")
+                info(f"[{sem_tag}] WAT nie opublikował jeszcze tego planu (404) — pomijam")
                 return None
-            uwaga(f"[{sem}] strona planu zwraca błąd {code}. Jeśli WAT zmienił adres, "
+            uwaga(f"[{sem_tag}] strona planu zwraca błąd {code}. Jeśli WAT zmienił adres, "
                   f"wklej nowy link w USTAWIENIA.toml. {zapas(cache)}")
         except Exception as e:
-            uwaga(f"[{sem}] nie udało się pobrać planu ({e}). {zapas(cache)}")
+            uwaga(f"[{sem_tag}] nie udało się pobrać planu ({e}). {zapas(cache)}")
 
     if not cache.exists():
-        info(f"[{sem}] brak zapisanej wersji planu — pomijam ten semestr")
+        info(f"[{sem_tag}] brak zapisanej wersji planu — pomijam ten semestr")
         return None
     data = json.loads(cache.read_text(encoding="utf-8"))
     problem = problem_z_planem(data, sem)
     if problem:
-        uwaga(f"[{sem}] zapisana wersja planu jest niepoprawna ({problem}) — pomijam")
+        uwaga(f"[{sem_tag}] zapisana wersja planu jest niepoprawna ({problem}) — pomijam")
         return None
-    info(f"[{sem}] używam zapisanej wersji z {data['meta'].get('fetched_at', '?')}")
+    info(f"[{sem_tag}] używam zapisanej wersji z {data['meta'].get('fetched_at', '?')}")
     return data
 
 
@@ -242,13 +265,18 @@ def sprawdz_zabladzone_pliki_wf() -> None:
 
 # --------------------------------------------------------------------------
 
-def eventy_semestru(sem: str, data: dict) -> list[dict]:
-    meta, year = data["meta"], data["meta"]["academic_year_start"]
+def siatka_i_legenda(data: dict) -> tuple[dict, dict]:
+    year = data["meta"]["academic_year_start"]
     grid = gen.build_grid(data["rows"])
     date_cols: set[int] = set()
     for _, cols in gen.find_all_date_rows(grid, year):
         date_cols.update(cols)
-    legend = gen.build_subject_legend(grid, date_cols)
+    return grid, gen.build_subject_legend(grid, date_cols)
+
+
+def eventy_semestru(sem: str, data: dict) -> list[dict]:
+    year = data["meta"]["academic_year_start"]
+    grid, legend = siatka_i_legenda(data)
 
     wf_details: dict = {}
     plik = wybierz_plik_wf(folder_wf(sem, year))
@@ -275,13 +303,36 @@ def eventy_semestru(sem: str, data: dict) -> list[dict]:
     return events
 
 
+def eventy_dodatkowe(kto: str, sem: str, data: dict, wlasne: dict[str, dict]) -> list[dict]:
+    """Zajęcia z planu dodatkowego, bez tych, które już są w Twoim planie."""
+    year = data["meta"]["academic_year_start"]
+    grid, legend = siatka_i_legenda(data)
+    zajete = {(e["dtstart"], e["dtend"], e["summary"]) for e in wlasne.values()}
+
+    nowe, wspolne = [], 0
+    for ev in gen.process_schedule(grid, {}, year, legend):  # {} = bez Twojego pliku WF
+        if (ev["dtstart"], ev["dtend"], ev["summary"]) in zajete:
+            wspolne += 1
+            continue
+        ev["uid"] = ev["uid"].replace("@", f"-{kto}@", 1)  # nie koliduje z Twoimi UID
+        ev["description"] = "\n".join(filter(None, [f"Plan grupy {kto}", ev["description"]]))
+        nowe.append(ev)
+
+    opis = f"dodatkowy {kto} — {sem} {year}/{year + 1}: +{len(nowe)} zajęć"
+    if wspolne:
+        opis += f" ({wspolne} wspólnych z Twoim planem pominiętych)"
+    podsumowanie.append(f"- ✅ {opis}")
+    info(opis)
+    return nowe
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Buduje kalendarz z planu WAT.")
     parser.add_argument("--offline", action="store_true",
                         help="nie pobieraj z WAT, użyj planów zapisanych w dane/")
     args = parser.parse_args()
 
-    grupa, linki = wczytaj_ustawienia()
+    grupa, linki, dodatkowe = wczytaj_ustawienia()
 
     plany = {sem: d for sem, url in linki.items()
              if (d := wczytaj_plan(sem, url, args.offline)) is not None}
@@ -302,6 +353,26 @@ def main() -> None:
             events.setdefault(ev["uid"], ev)
     sprawdz_zabladzone_pliki_wf()
 
+    # Plany dodatkowe: tylko z tego samego roku akademickiego co Twój plan.
+    # Gdy któregoś nie ma (strona nie działa / pusta), Twój kalendarz i tak się zapisze.
+    plany_dodatkowe: dict[str, dict] = {}
+    for kto, linki_d in dodatkowe.items():
+        for sem, url in linki_d.items():
+            data = wczytaj_plan(sem, url, args.offline, kto)
+            if data is None:
+                continue
+            y = data["meta"]["academic_year_start"]
+            if y != najnowszy:
+                info(f"[{kto} {sem}] plan z roku {y}/{y + 1}, a Twój jest z "
+                     f"{najnowszy}/{najnowszy + 1} — pomijam")
+                continue
+            plany_dodatkowe[f"{kto} {sem}"] = data
+            for ev in eventy_dodatkowe(kto, sem, data, events):
+                events.setdefault(ev["uid"], ev)
+        if not any(k.startswith(f"{kto} ") for k in plany_dodatkowe):
+            uwaga(f"[{kto}] plan dodatkowy jest niedostępny — w kalendarzu na razie go nie ma. "
+                  "Pojawi się sam, gdy strona WAT zacznie działać.")
+
     if not events:
         blad("Z planów wyszło 0 zajęć — nie nadpisuję kalendarza. Otwórz linki z "
              "USTAWIENIA.toml w przeglądarce i sprawdź, czy plan tam jest.")
@@ -310,8 +381,8 @@ def main() -> None:
     opis = " | ".join(
         f"{sem} {d['meta']['academic_year_start']}/{d['meta']['academic_year_end']}: "
         f"{d['meta'].get('url', '')} (aktualizacja {d['meta'].get('source_updated', '?')})"
-        for sem, d in plany.items())
-    dtstamp = max(gen.build_dtstamp(d["meta"]) for d in plany.values())
+        for sem, d in {**plany, **plany_dodatkowe}.items())
+    dtstamp = max(gen.build_dtstamp(d["meta"]) for d in {**plany, **plany_dodatkowe}.values())
     ics = gen.build_ics(lista, f"WAT {grupa}", opis, dtstamp)
 
     for nazwa in (f"{grupa}.ics", f"{grupa}_zima.ics"):

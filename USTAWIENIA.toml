@@ -17,3 +17,15 @@ grupa = "WEL24EL2S0"
 [plany]
 zima = "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm"
 lato = "https://wel.wat.edu.pl/planyzajec/lato/WEL24EL2S0.htm"
+
+# Plany dodatkowe — ich zajęcia są doklejane do TWOJEGO kalendarza (ten sam
+# link do subskrypcji). Twój plik WF ich nie dotyczy. Zajęcia, które już masz
+# w swoim planie (ten sam przedmiot o tej samej porze), nie są dublowane.
+# Gdy strona planu dodatkowego nie działa, Twój plan aktualizuje się normalnie,
+# a dodatkowe zajęcia pojawią się same, gdy WAT ją naprawi.
+#
+# Kolejny plan: skopiuj blok (3 linie) i podmień nazwę w nagłówku i linkach.
+# Koniec planu dodatkowego: usuń jego blok.
+[dodatkowe.WEL24EI1S0]
+zima = "https://wel.wat.edu.pl/planyzajec/zima/WEL24EI1S0.htm"
+lato = "https://wel.wat.edu.pl/planyzajec/lato/WEL24EI1S0.htm"

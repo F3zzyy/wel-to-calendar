@@ -1,7 +1,8 @@
 # WAT WEL plan zajęć → kalendarz
 
 Codziennie (06:00 UTC) GitHub Actions pobiera plan grupy **WEL24EL2S0**
-(zimowy i letni), dokleja szczegóły WF i publikuje jeden plik kalendarza.
+(zimowy i letni), dokleja szczegóły WF oraz zajęcia z planów dodatkowych
+(obecnie: grupa **WEL24EI1S0**) i publikuje jeden plik kalendarza.
 Zima/lato przełącza się samo — link do subskrypcji się nie zmienia.
 
 ## Linki do subskrypcji
@@ -24,6 +25,14 @@ Szczegóły: [WF/README.md](WF/README.md).
 **…zacznie się nowy semestr**
 Nic. Gdy WAT opublikuje plan, trafi do kalendarza sam, a w `WF/` pojawi się
 folder na nowy plan WF.
+
+**…chcę dokleić plan innej grupy (albo przestać)**
+`USTAWIENIA.toml` → kopiuję blok `[dodatkowe.…]` (3 linie), podmieniam nazwę
+grupy w nagłówku i w obu linkach → *Commit changes*. Zajęcia trafiają do tego
+samego kalendarza z dopiskiem „Plan grupy …” w opisie; te, które już mam
+(ten sam przedmiot o tej samej porze), nie są dublowane. Koniec: usuwam blok.
+Gdy strona planu dodatkowego nie działa, w podsumowaniu jest ⚠️, a mój plan
+aktualizuje się normalnie — dodatkowe zajęcia pojawią się same, gdy WAT ją naprawi.
 
 **…WAT zmieni adres planu**
 Otwieram `USTAWIENIA.toml` (na GitHubie: ikonka ołówka), wklejam nowy link
@@ -48,6 +57,7 @@ aktualizuj.py            ← jedyny skrypt do uruchamiania
 extract_schedule_data.py ← pobieranie i parsowanie strony WAT
 generate_ics_from_json.py← budowa eventów i pliku ICS
 dane/zima.json, lato.json← ostatnie dobre plany (generowane, zapas na awarię WAT)
+dane/dodatkowe/<grupa>/  ← to samo dla planów dodatkowych
 WEL24EL2S0.ics           ← kalendarz (generowany)
 ```
 
@@ -69,6 +79,10 @@ python aktualizuj.py --offline   # bez sieci, z dane/
   semestr pod linkiem), jest zastępowany ostatnią dobrą wersją z `dane/`.
   Plan letni przed publikacją (404) jest po prostu pomijany.
 - 0 zajęć = błąd i brak zapisu, więc pusty kalendarz nigdy nie zostanie opublikowany.
+- Plany dodatkowe: brane tylko z tego samego roku akademickiego co mój plan,
+  bez szczegółów WF z mojego pliku. Event jest pomijany, gdy mam już ten sam
+  przedmiot w tych samych godzinach. UID dostaje sufiks `-<grupa>`, więc nie
+  koliduje z moimi. Niedostępny plan dodatkowy = tylko ostrzeżenie, nigdy błąd.
 - WF: z folderu semestru brany jest najnowszy `.xlsx` (wg daty commita).
   Rok w datach pliku jest ignorowany i liczony z roku akademickiego. Szczegóły
   trafiają do pierwszego „WF” danego dnia (późniejszy to wykład).
