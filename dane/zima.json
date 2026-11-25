@@ -1,11 +1,11 @@
 {
   "meta": {
     "url": "https://wel.wat.edu.pl/planyzajec/zima/WEL24EL2S0.htm",
-    "fetched_at": "2026-11-24T17:03:25Z",
+    "fetched_at": "2026-11-25T16:53:04Z",
     "academic_year_start": 2026,
     "academic_year_end": 2027,
     "semester_label": "zimowy",
-    "source_updated": "24.11.2026 14:51:26"
+    "source_updated": "25.11.2026 14:32:23"
   },
   "rows": [
     [
@@ -1055,11 +1055,11 @@
         "cell_idx": 8
       },
       {
-        "text": "",
+        "text": "Apfe\nć\n0.14 42",
         "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "rowspan": 2,
+        "bgcolor": "#A5EE6F",
+        "style": "",
         "row_idx": 5,
         "cell_idx": 9
       },
@@ -1277,18 +1277,9 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
-        "row_idx": 6,
-        "cell_idx": 10
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
         "style": "height:13px;width:13px",
         "row_idx": 6,
-        "cell_idx": 11
+        "cell_idx": 10
       },
       {
         "text": "50%\nZaMe\nć\nAW 4\nT11Ć",
@@ -1297,7 +1288,7 @@
         "bgcolor": "#CE0F31",
         "style": "",
         "row_idx": 6,
-        "cell_idx": 12
+        "cell_idx": 11
       },
       {
         "text": "",
@@ -1306,7 +1297,7 @@
         "bgcolor": "",
         "style": "height:13px;width:13px",
         "row_idx": 6,
-        "cell_idx": 13
+        "cell_idx": 12
       },
       {
         "text": "",
@@ -1314,6 +1305,15 @@
         "rowspan": 1,
         "bgcolor": "",
         "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "row_idx": 6,
+        "cell_idx": 13
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
         "row_idx": 6,
         "cell_idx": 14
       },
@@ -1340,7 +1340,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 6,
         "cell_idx": 17
       },
@@ -1349,7 +1349,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 6,
         "cell_idx": 18
       },
@@ -1381,22 +1381,13 @@
         "cell_idx": 21
       },
       {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
-        "row_idx": 6,
-        "cell_idx": 22
-      },
-      {
         "text": "Apfe",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:#A5EE6F",
         "row_idx": 6,
-        "cell_idx": 23
+        "cell_idx": 22
       },
       {
         "text": "Anteny i propagacja fal elektromagnetycznych",
@@ -1405,7 +1396,7 @@
         "bgcolor": "",
         "style": "",
         "row_idx": 6,
-        "cell_idx": 24
+        "cell_idx": 23
       }
     ],
     [
@@ -5990,11 +5981,11 @@
         "cell_idx": 5
       },
       {
-        "text": "Apfe\nć\n0.14 42",
+        "text": "",
         "colspan": 1,
-        "rowspan": 2,
-        "bgcolor": "#A5EE6F",
-        "style": "",
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
         "row_idx": 29,
         "cell_idx": 6
       },
@@ -6212,9 +6203,18 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 30,
         "cell_idx": 8
+      },
+      {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "row_idx": 30,
+        "cell_idx": 9
       },
       {
         "text": "Mod\nL\n0.14 42",
@@ -6222,15 +6222,6 @@
         "rowspan": 2,
         "bgcolor": "#FF8080",
         "style": "",
-        "row_idx": 30,
-        "cell_idx": 9
-      },
-      {
-        "text": "",
-        "colspan": 1,
-        "rowspan": 1,
-        "bgcolor": "",
-        "style": "height:13px;width:13px",
         "row_idx": 30,
         "cell_idx": 10
       },
@@ -6248,7 +6239,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 30,
         "cell_idx": 12
       },
@@ -6257,7 +6248,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 30,
         "cell_idx": 13
       },
@@ -6275,7 +6266,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "border-right:solid 2.0pt;height:13px;width:13px",
+        "style": "height:13px;width:13px",
         "row_idx": 30,
         "cell_idx": 15
       },
@@ -6284,7 +6275,7 @@
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
-        "style": "height:13px;width:13px",
+        "style": "border-right:solid 2.0pt;height:13px;width:13px",
         "row_idx": 30,
         "cell_idx": 16
       },
@@ -6316,13 +6307,22 @@
         "cell_idx": 19
       },
       {
+        "text": "",
+        "colspan": 1,
+        "rowspan": 1,
+        "bgcolor": "",
+        "style": "height:13px;width:13px",
+        "row_idx": 30,
+        "cell_idx": 20
+      },
+      {
         "text": "Oś",
         "colspan": 1,
         "rowspan": 1,
         "bgcolor": "",
         "style": "height:13px;width:13px;background-color:#4D9548",
         "row_idx": 30,
-        "cell_idx": 20
+        "cell_idx": 21
       },
       {
         "text": "Ochrona środowiska",
@@ -6331,7 +6331,7 @@
         "bgcolor": "",
         "style": "",
         "row_idx": 30,
-        "cell_idx": 21
+        "cell_idx": 22
       }
     ],
     [
